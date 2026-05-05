@@ -76,7 +76,10 @@ export default function Catalogo() {
                                         <div key={p.id} className="prod-card">
                                             <div className={`prod-card-img ${getImgClass(p.id_categoria)}`}>
                                                 {p.imagen
-                                                    ? <img src={`${BASE_MEDIA}${p.imagen}`} alt={p.nombre} />
+                                                    ? <img 
+                                                        src={p.imagen.startsWith('http') ? p.imagen : `${BASE_MEDIA}${p.imagen}`} 
+                                                        alt={p.nombre} 
+                                                      />
                                                     : getEmoji(p.id_categoria)
                                                 }
                                             </div>
