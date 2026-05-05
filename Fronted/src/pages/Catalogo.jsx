@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Sidebar from '../components/Sidebar'
+import NotificationBell from '../components/NotificationBell'
 import api from '../services/api'
 
 const EMOJI_CAT = { fertilizante: '🌱', herbicida: '🌾', veneno: '🐛', pecuario: '🐄' }
@@ -44,6 +45,7 @@ export default function Catalogo() {
                         <div className="page-sub">Insumos agrícolas y pecuarios disponibles</div>
                     </div>
                     <div className="topbar-right">
+                        <NotificationBell />
                         <input
                             className="filtro-input"
                             type="text"

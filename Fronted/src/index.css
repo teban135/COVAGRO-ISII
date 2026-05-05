@@ -1054,3 +1054,116 @@ tr:hover td {
   font-size: 13px;
   gap: 8px;
 }
+
+/* ── NOTIFICATION BELL ── */
+.notif-wrapper {
+  position: relative;
+}
+
+.notif-bell {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.notif-bell:hover {
+  background: var(--crema);
+}
+
+.notif-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: var(--rojo);
+  color: white;
+  font-size: 9px;
+  font-weight: 700;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.notif-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 320px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  margin-top: 10px;
+  z-index: 1000;
+  overflow: hidden;
+  border: 1px solid var(--crema-oscuro);
+}
+
+.notif-header {
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 13px;
+  background: var(--verde-oscuro);
+  color: white;
+  letter-spacing: 1px;
+}
+
+.notif-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.notif-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--crema-oscuro);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.notif-item:hover {
+  background: var(--crema);
+}
+
+.notif-item.unread {
+  background: #fdfce8; /* Un toque de amarillo muy suave */
+}
+
+.notif-type {
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.notif-body {
+  flex: 1;
+}
+
+.notif-msg {
+  font-size: 13px;
+  color: var(--marron);
+  line-height: 1.4;
+}
+
+.notif-date {
+  font-size: 10px;
+  color: var(--gris);
+  margin-top: 4px;
+}
+
+.notif-empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--gris);
+  font-size: 13px;
+}

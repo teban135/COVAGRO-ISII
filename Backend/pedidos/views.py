@@ -5,8 +5,11 @@ from django.db import transaction
 from django.db.models import Sum, Count, F
 from django.utils import timezone
 from datetime import timedelta
-from .models import EstadoPedido, Pedido, DetallePedido
-from .serializers import EstadoPedidoSerializer, PedidoSerializer, DetallePedidoSerializer
+from .models import EstadoPedido, Pedido, DetallePedido, HistorialEstado, Notificacion
+from .serializers import (
+    EstadoPedidoSerializer, PedidoSerializer, DetallePedidoSerializer,
+    HistorialEstadoSerializer, NotificacionSerializer
+)
 from productos.models import Producto
 from inventario.models import MovimientoInventario
 from usuarios.permissions import EsEmpleadoOAdmin
@@ -15,6 +18,26 @@ class EstadoPedidoViewSet(viewsets.ModelViewSet):
     queryset = EstadoPedido.objects.all()
     serializer_class = EstadoPedidoSerializer
     permission_classes = [permissions.IsAuthenticated]
+
+class NotificacionViewSet(viewsets.ModelViewSet):
+    queryset = Notificacion.objects.all()
+    serializer_class = NotificacionSerializer
+    permission_classes = [EsEmpleadoOAdmin]
+
+    def get_queryset(self):
+        return Notificacion.objects.all().order_by('-fecha')
+
+    @action(detail=True, methods=['post'])
+    def marcar_leida(self, request, pk=None):
+        notif = self.get_object()
+        notif.leida = True
+        notif.save()
+        return Response({'status': 'notificación leída'})
+
+    @action(detail=False, methods=['post'])
+    def marcar_todas_leidas(self, request):
+        Notificacion.objects.filter(leida=False).update(leida=True)
+        return Response({'status': 'todas las notificaciones marcadas como leídas'})
 
 class PedidoViewSet(viewsets.ModelViewSet):
     serializer_class = PedidoSerializer
@@ -116,42 +139,85 @@ class PedidoViewSet(viewsets.ModelViewSet):
                     data['id_estado'] = estado_inicial.id
 
         serializer = self.get_serializer(data=data)
-        serializer.is_valid(raise_exception=True)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            
         pedido = serializer.save()
 
         total = 0
-        for detalle in detalles_data:
-            producto = Producto.objects.select_for_update().get(pk=detalle['id_producto'])
+        try:
+            for detalle in detalles_data:
+                producto = Producto.objects.select_for_update().get(pk=detalle['id_producto'])
+                cantidad = int(detalle['cantidad'])
 
-            if producto.stock_actual < detalle['cantidad']:
-                raise Exception(f'Stock insuficiente para {producto.nombre}')
+                if producto.stock_actual < cantidad:
+                    # Forzamos rollback levantando una excepción controlada
+                    raise ValueError(f'Stock insuficiente para {producto.nombre}. Disponible: {producto.stock_actual}')
 
-            subtotal = detalle['cantidad'] * detalle['precio_unitario']
-            DetallePedido.objects.create(
-                id_pedido=pedido,
-                id_producto=producto,
-                cantidad=detalle['cantidad'],
-                precio_unitario=detalle['precio_unitario'],
-                subtotal=subtotal
-            )
+                precio_un = float(detalle['precio_unitario'])
+                subtotal = cantidad * precio_un
+                
+                DetallePedido.objects.create(
+                    id_pedido=pedido,
+                    id_producto=producto,
+                    cantidad=cantidad,
+                    precio_unitario=precio_un,
+                    subtotal=subtotal
+                )
 
-            # Descontar stock y registrar movimiento
-            producto.stock_actual -= detalle['cantidad']
-            producto.save()
+                # Descontar stock y registrar movimiento
+                producto.stock_actual -= cantidad
+                producto.save()
 
-            MovimientoInventario.objects.create(
-                producto=producto,
-                tipo='salida',
-                cantidad=detalle['cantidad'],
-                referencia=f'Pedido #{pedido.id}'
-            )
+                MovimientoInventario.objects.create(
+                    producto=producto,
+                    tipo='salida',
+                    cantidad=cantidad,
+                    referencia=f'Pedido #{pedido.id}'
+                )
 
-            total += subtotal
+                total += subtotal
 
-        pedido.total = total
-        pedido.save()
+            pedido.total = total
+            pedido.save()
+
+            # Crear notificación para el admin
+            try:
+                Notificacion.objects.create(
+                    tipo='NUEVO_PEDIDO',
+                    mensaje=f"Nuevo pedido #{pedido.id} de {pedido.id_cliente.nombre if pedido.id_cliente else 'Cliente desconocido'}",
+                    id_pedido=pedido
+                )
+            except Exception as e:
+                print(f"Error creando notificación: {e}")
+
+        except ValueError as e:
+            # Error de negocio (stock)
+            transaction.set_rollback(True)
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            # Otro error inesperado
+            transaction.set_rollback(True)
+            return Response({'error': f'Error procesando el pedido: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         return Response(self.get_serializer(pedido).data, status=status.HTTP_201_CREATED)
+
+    def perform_update(self, serializer):
+        old_instance = self.get_object()
+        new_instance = serializer.save()
+        
+        # Si el estado cambió, registrar en historial y notificar
+        if old_instance.id_estado != new_instance.id_estado:
+            HistorialEstado.objects.create(
+                id_pedido=new_instance,
+                id_estado=new_instance.id_estado,
+                id_usuario=self.request.user
+            )
+            Notificacion.objects.create(
+                tipo='CAMBIO_ESTADO',
+                mensaje=f"El pedido #{new_instance.id} cambió a {new_instance.id_estado.nombre}",
+                id_pedido=new_instance
+            )
 
 class DetallePedidoViewSet(viewsets.ModelViewSet):
     queryset = DetallePedido.objects.all()
