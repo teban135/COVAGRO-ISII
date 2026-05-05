@@ -68,7 +68,18 @@ export default function NuevoPedidoCliente() {
             setExito(true)
             setTimeout(() => navigate('/mis-pedidos'), 2000)
         } catch (e) {
-            setError('Error al enviar el pedido. Verifique el stock disponible.')
+            let msg = 'Error al enviar el pedido.'
+            if (e.response?.data) {
+                if (e.response.data.error) msg = e.response.data.error
+                else if (e.response.data.detail) msg = e.response.data.detail
+                else {
+                    // Si es un error de validación de campos (ej: {id_estado: ["..."]})
+                    msg = Object.entries(e.response.data)
+                        .map(([field, errors]) => `${field}: ${errors.join(', ')}`)
+                        .join(' | ')
+                }
+            }
+            setError(msg)
         } finally {
             setEnviando(false)
         }

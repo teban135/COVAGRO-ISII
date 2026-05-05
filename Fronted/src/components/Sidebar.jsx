@@ -11,7 +11,7 @@ const MENUS = {
     EMPLEADO: [
         { section: 'Pedidos' },
         { icon: '➕', label: 'Nuevo Pedido', to: '/pedido-empleado' },
-        { icon: '📋', label: 'Consultar Pedidos', to: '/pedidos' },
+        { icon: '📋', label: 'Gestionar Pedidos', to: '/pedidos' },
         { section: 'Inventario' },
         { icon: '🗃️', label: 'Inventario', to: '/inventario' },
         { section: 'Análisis' },
@@ -20,7 +20,7 @@ const MENUS = {
     ADMIN: [
         { section: 'Pedidos' },
         { icon: '➕', label: 'Nuevo Pedido', to: '/pedido-empleado' },
-        { icon: '📋', label: 'Consultar Pedidos', to: '/pedidos' },
+        { icon: '📋', label: 'Gestionar Pedidos', to: '/pedidos' },
         { section: 'Inventario' },
         { icon: '🗃️', label: 'Inventario', to: '/inventario' },
         { section: 'Administración' },

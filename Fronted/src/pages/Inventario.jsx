@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Sidebar from '../components/Sidebar'
 import StatCard from '../components/StatCard'
+import NotificationBell from '../components/NotificationBell'
 import api from '../services/api'
 
 export default function Inventario() {
@@ -51,6 +52,9 @@ export default function Inventario() {
                     <div>
                         <div className="page-title">Inventario</div>
                         <div className="page-sub">Control de existencias y stock</div>
+                    </div>
+                    <div className="topbar-right">
+                        <NotificationBell />
                     </div>
                 </div>
 

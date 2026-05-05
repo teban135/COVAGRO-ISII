@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Sidebar from '../components/Sidebar'
+import NotificationBell from '../components/NotificationBell'
 import api from '../services/api'
 
 const ESTADO_CLASS = {
@@ -56,10 +57,11 @@ export default function ConsultarPedidos() {
             <main className="main-content">
                 <div className="topbar">
                     <div>
-                        <div className="page-title">Consultar Pedidos</div>
+                        <div className="page-title">Gestionar Pedidos</div>
                         <div className="page-sub">Gestión y seguimiento de pedidos</div>
                     </div>
                     <div className="topbar-right">
+                        <NotificationBell />
                         <button className="btn btn-verde btn-sm" onClick={() => navigate('/pedido-empleado')}>
                             ➕ Nuevo Pedido
                         </button>

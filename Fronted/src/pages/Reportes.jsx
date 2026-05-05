@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Sidebar from '../components/Sidebar'
 import StatCard from '../components/StatCard'
+import NotificationBell from '../components/NotificationBell'
 import api from '../services/api'
 import { useAuth } from '../services/authContext'
 
@@ -67,38 +68,41 @@ export default function Reportes() {
                             </div>
                         </div>
                         
-                        {isAdmin && (
-                            <div className="bg-white p-1 rounded-lg flex shadow-sm border border-gray-100" style={{ background: 'white', padding: '4px', borderRadius: '8px', display: 'flex', gap: '4px' }}>
-                                <button 
-                                    className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'diario' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
-                                    style={{ 
-                                        padding: '8px 16px', 
-                                        borderRadius: '6px', 
-                                        border: 'none', 
-                                        cursor: 'pointer',
-                                        backgroundColor: tipoReporte === 'diario' ? 'var(--verde-oscuro)' : 'transparent',
-                                        color: tipoReporte === 'diario' ? 'white' : 'var(--texto-medio)'
-                                    }}
-                                    onClick={() => setTipoReporte('diario')}
-                                >
-                                    ☀️ Diario
-                                </button>
-                                <button 
-                                    className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'mensual' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
-                                    style={{ 
-                                        padding: '8px 16px', 
-                                        borderRadius: '6px', 
-                                        border: 'none', 
-                                        cursor: 'pointer',
-                                        backgroundColor: tipoReporte === 'mensual' ? 'var(--verde-oscuro)' : 'transparent',
-                                        color: tipoReporte === 'mensual' ? 'white' : 'var(--texto-medio)'
-                                    }}
-                                    onClick={() => setTipoReporte('mensual')}
-                                >
-                                    📅 Mensual
-                                </button>
-                            </div>
-                        )}
+                        <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+                            <NotificationBell />
+                            {isAdmin && (
+                                <div className="bg-white p-1 rounded-lg flex shadow-sm border border-gray-100" style={{ background: 'white', padding: '4px', borderRadius: '8px', display: 'flex', gap: '4px' }}>
+                                    <button 
+                                        className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'diario' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
+                                        style={{ 
+                                            padding: '8px 16px', 
+                                            borderRadius: '6px', 
+                                            border: 'none', 
+                                            cursor: 'pointer',
+                                            backgroundColor: tipoReporte === 'diario' ? 'var(--verde-oscuro)' : 'transparent',
+                                            color: tipoReporte === 'diario' ? 'white' : 'var(--texto-medio)'
+                                        }}
+                                        onClick={() => setTipoReporte('diario')}
+                                    >
+                                        ☀️ Diario
+                                    </button>
+                                    <button 
+                                        className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'mensual' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
+                                        style={{ 
+                                            padding: '8px 16px', 
+                                            borderRadius: '6px', 
+                                            border: 'none', 
+                                            cursor: 'pointer',
+                                            backgroundColor: tipoReporte === 'mensual' ? 'var(--verde-oscuro)' : 'transparent',
+                                            color: tipoReporte === 'mensual' ? 'white' : 'var(--texto-medio)'
+                                        }}
+                                        onClick={() => setTipoReporte('mensual')}
+                                    >
+                                        📅 Mensual
+                                    </button>
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
 
