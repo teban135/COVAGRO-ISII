@@ -20,15 +20,17 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from django.conf import settings
 from django.conf.urls.static import static
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('usuarios.urls')),
-    path('api/', include('productos.urls')),
-    path('api/', include('pedidos.urls')),
-    path('api/', include('inventario.urls')),
+api_patterns = [
+    path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('', include('usuarios.urls')),
+    path('', include('productos.urls')),
+    path('', include('pedidos.urls')),
+    path('', include('inventario.urls')),
 ]
 
-urlpatterns += [path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-                path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),]
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include(api_patterns)),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

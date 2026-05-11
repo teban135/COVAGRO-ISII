@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Sidebar from '../components/Sidebar'
 import NotificationBell from '../components/NotificationBell'
+import Breadcrumbs from '../components/Breadcrumbs'
+import Spinner from '../components/Spinner'
 import api from '../services/api'
 
 const ESTADO_CLASS = {
@@ -55,7 +57,8 @@ export default function ConsultarPedidos() {
         <div className="app-layout">
             <Sidebar />
             <main className="main-content">
-                <div className="topbar">
+                <Breadcrumbs />
+                <div className="topbar" style={{ marginTop: '0' }}>
                     <div>
                         <div className="page-title">Gestionar Pedidos</div>
                         <div className="page-sub">Gestión y seguimiento de pedidos</div>
@@ -88,7 +91,7 @@ export default function ConsultarPedidos() {
                             <span className="table-title">Lista de pedidos</span>
                         </div>
                         {cargando ? (
-                            <div className="loading-spinner">🌿 Cargando...</div>
+                            <Spinner />
                         ) : (
                             <table>
                                 <thead>

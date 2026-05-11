@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import Sidebar from '../components/Sidebar'
 import StatCard from '../components/StatCard'
 import NotificationBell from '../components/NotificationBell'
+import Breadcrumbs from '../components/Breadcrumbs'
+import Spinner from '../components/Spinner'
 import api from '../services/api'
 import { useAuth } from '../services/authContext'
 
@@ -73,7 +75,8 @@ export default function Reportes() {
         <div className="app-layout">
             <Sidebar />
             <main className="main-content">
-                <div className="topbar">
+                <Breadcrumbs />
+                <div className="topbar" style={{ marginTop: '0' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                         <div>
                             <div className="page-title">Reporte Consolidado</div>
@@ -123,7 +126,7 @@ export default function Reportes() {
 
                 <div className="content-body">
                     {cargando ? (
-                        <div className="loading-spinner">🌿 Cargando datos...</div>
+                        <Spinner />
                     ) : (
                         <>
                             <div className="cards-grid">

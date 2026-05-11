@@ -72,6 +72,10 @@ class PedidoViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(pedidos, many=True)
         return Response(serializer.data)
 
+    from django.utils.decorators import method_decorator
+    from django.views.decorators.cache import cache_page
+    
+    @method_decorator(cache_page(60 * 5))
     @action(detail=False, methods=['get'], url_path='reporte-consolidado', permission_classes=[EsEmpleadoOAdmin])
     def reporte_consolidado(self, request):
         from django.core.paginator import Paginator

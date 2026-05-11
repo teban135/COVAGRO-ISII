@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import Sidebar from '../components/Sidebar'
 import StatCard from '../components/StatCard'
 import NotificationBell from '../components/NotificationBell'
+import Breadcrumbs from '../components/Breadcrumbs'
+import Spinner from '../components/Spinner'
 import api from '../services/api'
 
 export default function Inventario() {
@@ -48,7 +50,8 @@ export default function Inventario() {
         <div className="app-layout">
             <Sidebar />
             <main className="main-content">
-                <div className="topbar">
+                <Breadcrumbs />
+                <div className="topbar" style={{ marginTop: '0' }}>
                     <div>
                         <div className="page-title">Inventario</div>
                         <div className="page-sub">Control de existencias y stock</div>
@@ -88,7 +91,7 @@ export default function Inventario() {
                             <span className="table-title">Existencias de productos</span>
                         </div>
                         {cargando ? (
-                            <div className="loading-spinner">🌿 Cargando...</div>
+                            <Spinner />
                         ) : (
                             <table>
                                 <thead>
