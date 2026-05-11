@@ -74,24 +74,67 @@ class PedidoViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['get'], url_path='reporte-consolidado', permission_classes=[EsEmpleadoOAdmin])
     def reporte_consolidado(self, request):
+        from django.core.paginator import Paginator
+        
         periodo = request.query_params.get('periodo', 'diario')
         hoy = timezone.now()
+        
+        inicio = None
+        fin = None
+        todos_pedidos_periodo = Pedido.objects.all()
         
         if periodo == 'diario':
             inicio = hoy.replace(hour=0, minute=0, second=0, microsecond=0)
             fin = inicio + timedelta(days=1)
-        else:
+            todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__range=(inicio, fin))
+        elif periodo == 'mensual':
             inicio = hoy.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
             if inicio.month == 12:
                 fin = inicio.replace(year=inicio.year + 1, month=1)
             else:
                 fin = inicio.replace(month=inicio.month + 1)
-        
-        pedidos_periodo = Pedido.objects.filter(
-            fecha__range=(inicio, fin),
-            id_estado__nombre='ENTREGADO'
-        )
-        
+            todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__range=(inicio, fin))
+        elif periodo == 'dia':
+            fecha_str = request.query_params.get('fecha')
+            if fecha_str:
+                try:
+                    fecha = timezone.datetime.strptime(fecha_str, '%Y-%m-%d').date()
+                    todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__date=fecha)
+                except ValueError:
+                    pass
+        elif periodo == 'mes':
+            mes_str = request.query_params.get('mes_anio')
+            if mes_str:
+                try:
+                    year, month = map(int, mes_str.split('-'))
+                    todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__year=year, fecha__month=month)
+                except ValueError:
+                    pass
+        elif periodo == 'anio':
+            anio_str = request.query_params.get('anio')
+            if anio_str:
+                try:
+                    year = int(anio_str)
+                    todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__year=year)
+                except ValueError:
+                    pass
+        elif periodo == 'rango':
+            fecha_inicio_str = request.query_params.get('fecha_inicio')
+            fecha_fin_str = request.query_params.get('fecha_fin')
+            if fecha_inicio_str and fecha_fin_str:
+                try:
+                    fecha_inicio = timezone.datetime.strptime(fecha_inicio_str, '%Y-%m-%d')
+                    fecha_fin = timezone.datetime.strptime(fecha_fin_str, '%Y-%m-%d')
+                    fecha_inicio = timezone.make_aware(fecha_inicio) if timezone.is_naive(fecha_inicio) else fecha_inicio
+                    fecha_fin = timezone.make_aware(fecha_fin) if timezone.is_naive(fecha_fin) else fecha_fin
+                    fecha_fin = fecha_fin + timedelta(days=1)
+                    todos_pedidos_periodo = todos_pedidos_periodo.filter(fecha__range=(fecha_inicio, fecha_fin))
+                except ValueError:
+                    pass
+
+        # Para las métricas solo usamos ENTREGADO
+        pedidos_periodo = todos_pedidos_periodo.filter(id_estado__nombre='ENTREGADO')
+
         ventas_totales = pedidos_periodo.aggregate(total=Sum('total'))['total'] or 0
         cantidad_pedidos = pedidos_periodo.count()
         
@@ -113,6 +156,12 @@ class PedidoViewSet(viewsets.ModelViewSet):
             valor=Sum('subtotal')
         ).order_by('-valor')
         
+        # Paginate results based on all orders in the period
+        page_number = request.query_params.get('page', 1)
+        paginator = Paginator(todos_pedidos_periodo.order_by('-fecha'), 10)
+        page_obj = paginator.get_page(page_number)
+        pedidos_serializados = self.get_serializer(page_obj.object_list, many=True).data
+        
         return Response({
             'periodo': periodo,
             'inicio': inicio,
@@ -120,7 +169,15 @@ class PedidoViewSet(viewsets.ModelViewSet):
             'ventas_totales': ventas_totales,
             'cantidad_pedidos': cantidad_pedidos,
             'por_categoria': list(por_categoria),
-            'por_producto': list(por_producto)
+            'por_producto': list(por_producto),
+            'pedidos_paginados': pedidos_serializados,
+            'paginacion': {
+                'total_pages': paginator.num_pages,
+                'current_page': page_obj.number,
+                'has_next': page_obj.has_next(),
+                'has_previous': page_obj.has_previous(),
+                'total_items': paginator.count
+            }
         })
 
     # Crear pedido con detalles y descuento de stock en una sola transacción

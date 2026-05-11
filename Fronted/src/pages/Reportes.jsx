@@ -21,29 +21,43 @@ export default function Reportes() {
     const [estados, setEstados] = useState([])
     const [categorias, setCategorias] = useState([])
     const [tipoReporte, setTipoReporte] = useState('diario')
+    const [fechaSel, setFechaSel] = useState('')
+    const [mesSel, setMesSel] = useState('')
+    const [anioSel, setAnioSel] = useState('')
+    const [fechaInicioSel, setFechaInicioSel] = useState('')
+    const [fechaFinSel, setFechaFinSel] = useState('')
+    const [paginaActual, setPaginaActual] = useState(1)
+    
     const [consolidado, setConsolidado] = useState(null)
     const [cargando, setCargando] = useState(true)
 
     useEffect(() => {
         setCargando(true)
+        let qParams = `periodo=${tipoReporte}&page=${paginaActual}`
+        if (tipoReporte === 'dia' && fechaSel) qParams += `&fecha=${fechaSel}`
+        if (tipoReporte === 'mes' && mesSel) qParams += `&mes_anio=${mesSel}`
+        if (tipoReporte === 'anio' && anioSel) qParams += `&anio=${anioSel}`
+        if (tipoReporte === 'rango' && fechaInicioSel && fechaFinSel) qParams += `&fecha_inicio=${fechaInicioSel}&fecha_fin=${fechaFinSel}`
+
         Promise.all([
-            api.get('/pedidos/'),
             api.get('/productos/'),
             api.get('/estados-pedido/'),
             api.get('/categorias/'),
-            api.get(`/pedidos/reporte-consolidado/?periodo=${tipoReporte}`)
-        ]).then(([p, pr, e, c, cons]) => {
-            setPedidos(p.data)
+            api.get(`/pedidos/reporte-consolidado/?${qParams}`)
+        ]).then(([pr, e, c, cons]) => {
             setProductos(pr.data)
             setEstados(e.data)
             setCategorias(c.data)
             setConsolidado(cons.data)
+            if (cons.data.pedidos_paginados) {
+                setPedidos(cons.data.pedidos_paginados)
+            }
             setCargando(false)
         }).catch(err => {
             console.error("Error cargando reportes:", err)
             setCargando(false)
         })
-    }, [tipoReporte])
+    }, [tipoReporte, fechaSel, mesSel, anioSel, fechaInicioSel, fechaFinSel, paginaActual])
 
     const getNombreEstado = (id) => estados.find(e => e.id === id)?.nombre?.toUpperCase() || ''
 
@@ -64,42 +78,43 @@ export default function Reportes() {
                         <div>
                             <div className="page-title">Reporte Consolidado</div>
                             <div className="page-sub">
-                                {tipoReporte === 'diario' ? 'Resumen del día de hoy' : 'Resumen del mes actual'}
+                                Resumen consolidado de operaciones
                             </div>
                         </div>
                         
                         <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
                             <NotificationBell />
                             {isAdmin && (
-                                <div className="bg-white p-1 rounded-lg flex shadow-sm border border-gray-100" style={{ background: 'white', padding: '4px', borderRadius: '8px', display: 'flex', gap: '4px' }}>
-                                    <button 
-                                        className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'diario' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
-                                        style={{ 
-                                            padding: '8px 16px', 
-                                            borderRadius: '6px', 
-                                            border: 'none', 
-                                            cursor: 'pointer',
-                                            backgroundColor: tipoReporte === 'diario' ? 'var(--verde-oscuro)' : 'transparent',
-                                            color: tipoReporte === 'diario' ? 'white' : 'var(--texto-medio)'
-                                        }}
-                                        onClick={() => setTipoReporte('diario')}
+                                <div className="bg-white p-1 rounded-lg flex shadow-sm border border-gray-100" style={{ background: 'white', padding: '4px', borderRadius: '8px', display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                    <select 
+                                        value={tipoReporte} 
+                                        onChange={(e) => { setTipoReporte(e.target.value); setPaginaActual(1); }}
+                                        style={{ padding: '8px 16px', borderRadius: '6px', border: '1px solid #ddd', outline: 'none', cursor: 'pointer' }}
                                     >
-                                        ☀️ Diario
-                                    </button>
-                                    <button 
-                                        className={`px-4 py-2 rounded-md transition-all ${tipoReporte === 'mensual' ? 'bg-green-600 text-white shadow' : 'text-gray-600 hover:bg-gray-50'}`}
-                                        style={{ 
-                                            padding: '8px 16px', 
-                                            borderRadius: '6px', 
-                                            border: 'none', 
-                                            cursor: 'pointer',
-                                            backgroundColor: tipoReporte === 'mensual' ? 'var(--verde-oscuro)' : 'transparent',
-                                            color: tipoReporte === 'mensual' ? 'white' : 'var(--texto-medio)'
-                                        }}
-                                        onClick={() => setTipoReporte('mensual')}
-                                    >
-                                        📅 Mensual
-                                    </button>
+                                        <option value="diario">☀️ Diario</option>
+                                        <option value="mensual">📅 Mensual</option>
+                                        <option value="dia">📅 Por Día</option>
+                                        <option value="mes">📅 Por Mes</option>
+                                        <option value="anio">📅 Por Año</option>
+                                        <option value="rango">📅 Por Rango</option>
+                                    </select>
+
+                                    {tipoReporte === 'dia' && (
+                                        <input type="date" value={fechaSel} onChange={(e) => { setFechaSel(e.target.value); setPaginaActual(1); }} style={{ padding: '8px', borderRadius: '6px', border: '1px solid #ddd' }} />
+                                    )}
+                                    {tipoReporte === 'mes' && (
+                                        <input type="month" value={mesSel} onChange={(e) => { setMesSel(e.target.value); setPaginaActual(1); }} style={{ padding: '8px', borderRadius: '6px', border: '1px solid #ddd' }} />
+                                    )}
+                                    {tipoReporte === 'anio' && (
+                                        <input type="number" placeholder="Ej. 2024" value={anioSel} onChange={(e) => { setAnioSel(e.target.value); setPaginaActual(1); }} style={{ padding: '8px', borderRadius: '6px', border: '1px solid #ddd', width: '100px' }} />
+                                    )}
+                                    {tipoReporte === 'rango' && (
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            <input type="date" value={fechaInicioSel} onChange={(e) => { setFechaInicioSel(e.target.value); setPaginaActual(1); }} style={{ padding: '8px', borderRadius: '6px', border: '1px solid #ddd' }} />
+                                            <span style={{color: '#666'}}>a</span>
+                                            <input type="date" value={fechaFinSel} onChange={(e) => { setFechaFinSel(e.target.value); setPaginaActual(1); }} style={{ padding: '8px', borderRadius: '6px', border: '1px solid #ddd' }} />
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </div>
@@ -216,17 +231,36 @@ export default function Reportes() {
                                 </table>
                             </div>
 
-                            {/* Últimos pedidos */}
+                            {/* Últimos pedidos (Paginado) */}
                             <div className="table-card">
-                                <div className="table-header">
-                                    <span className="table-title">Últimos pedidos</span>
+                                <div className="table-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                    <span className="table-title">Pedidos del Periodo</span>
+                                    {consolidado?.paginacion && consolidado.paginacion.total_items > 0 && (
+                                        <div style={{ display: 'flex', gap: '10px', alignItems: 'center', fontSize: '0.9rem' }}>
+                                            <span style={{ color: '#666' }}>Página {consolidado.paginacion.current_page} de {consolidado.paginacion.total_pages}</span>
+                                            <button 
+                                                disabled={!consolidado.paginacion.has_previous}
+                                                onClick={() => setPaginaActual(p => Math.max(1, p - 1))}
+                                                style={{ padding: '4px 8px', borderRadius: '4px', border: '1px solid #ddd', cursor: consolidado.paginacion.has_previous ? 'pointer' : 'not-allowed', opacity: consolidado.paginacion.has_previous ? 1 : 0.5 }}
+                                            >
+                                                Anterior
+                                            </button>
+                                            <button 
+                                                disabled={!consolidado.paginacion.has_next}
+                                                onClick={() => setPaginaActual(p => p + 1)}
+                                                style={{ padding: '4px 8px', borderRadius: '4px', border: '1px solid #ddd', cursor: consolidado.paginacion.has_next ? 'pointer' : 'not-allowed', opacity: consolidado.paginacion.has_next ? 1 : 0.5 }}
+                                            >
+                                                Siguiente
+                                            </button>
+                                        </div>
+                                    )}
                                 </div>
                                 <table>
                                     <thead>
                                         <tr><th>N° Pedido</th><th>Fecha</th><th>Canal</th><th>Total</th><th>Estado</th></tr>
                                     </thead>
                                     <tbody>
-                                        {[...pedidos].reverse().slice(0, 10).map(p => {
+                                        {pedidos.length > 0 ? pedidos.map(p => {
                                             const estado = getNombreEstado(p.id_estado)
                                             return (
                                                 <tr key={p.id}>
@@ -237,7 +271,9 @@ export default function Reportes() {
                                                     <td><span className={`estado ${ESTADO_CLASS[estado] || ''}`}>{estado}</span></td>
                                                 </tr>
                                             )
-                                        })}
+                                        }) : (
+                                            <tr><td colSpan="5" style={{ textAlign: 'center', padding: '1rem', color: '#666' }}>No hay pedidos en este periodo.</td></tr>
+                                        )}
                                     </tbody>
                                 </table>
                             </div>
