@@ -1,6 +1,6 @@
 # File Tree: Backend
 
-**Generated:** 4/16/2026, 9:46:23 AM
+**Generated:** 5/19/2026, 11:45:00 AM
 **Root Path:** `c:\Users\Usuario\Ing Sistemas\8vo semestre\Software II\Covagro-SII\Backend`
 
 ```
@@ -63,6 +63,7 @@
 │   └── 🐍 views.py
 ├── 📄 db.sqlite3
 ├── 🐍 manage.py
+├── 🐍 populate_test_data.py
 └── 📄 requirements.txt
 ```
 

@@ -1,6 +1,6 @@
 # File Tree: Fronted
 
-**Generated:** 4/16/2026, 9:44:44 AM
+**Generated:** 5/19/2026, 11:45:00 AM
 **Root Path:** `c:\Users\Usuario\Ing Sistemas\8vo semestre\Software II\Covagro-SII\Fronted`
 
 ```
@@ -13,8 +13,11 @@
 │   │   ├── 🖼️ react.svg
 │   │   └── 🖼️ vite.svg
 │   ├── 📁 components
+│   │   ├── 📄 Breadcrumbs.jsx
+│   │   ├── 📄 NotificationBell.jsx
 │   │   ├── 📄 ProtectedRoute.jsx
 │   │   ├── 📄 Sidebar.jsx
+│   │   ├── 📄 Spinner.jsx
 │   │   └── 📄 StatCard.jsx
 │   ├── 📁 pages
 │   │   ├── 📄 Catalogo.jsx
