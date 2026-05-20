@@ -4,6 +4,33 @@
   "graph": {},
   "nodes": [
     {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings_json",
+      "community": 35,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_hooks",
+      "community": 35,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_hooks_pretooluse",
+      "community": 35,
+      "norm_label": "pretooluse"
+    },
+    {
       "label": "manage.py",
       "file_type": "code",
       "source_file": "Backend/manage.py",
@@ -135,7 +162,7 @@
       "source_file": "Backend/inventario/admin.py",
       "source_location": "L1",
       "id": "backend_inventario_admin_py",
-      "community": 35,
+      "community": 3,
       "norm_label": "admin.py"
     },
     {
@@ -171,7 +198,7 @@
       "source_file": "Backend/inventario/models.py",
       "source_location": "L1",
       "id": "backend_inventario_models_py",
-      "community": 35,
+      "community": 3,
       "norm_label": "models.py"
     },
     {
@@ -180,7 +207,7 @@
       "source_file": "Backend/inventario/models.py",
       "source_location": "L4",
       "id": "inventario_models_movimientoinventario",
-      "community": 35,
+      "community": 3,
       "norm_label": "movimientoinventario"
     },
     {
@@ -189,7 +216,7 @@
       "source_file": "Backend/inventario/models.py",
       "source_location": "L16",
       "id": "inventario_models_movimientoinventario_str",
-      "community": 35,
+      "community": 3,
       "norm_label": ".__str__()"
     },
     {
@@ -198,7 +225,7 @@
       "source_file": "Backend/inventario/serializers.py",
       "source_location": "L1",
       "id": "backend_inventario_serializers_py",
-      "community": 35,
+      "community": 3,
       "norm_label": "serializers.py"
     },
     {
@@ -207,7 +234,7 @@
       "source_file": "Backend/inventario/serializers.py",
       "source_location": "L4",
       "id": "inventario_serializers_movimientoinventarioserializer",
-      "community": 35,
+      "community": 3,
       "norm_label": "movimientoinventarioserializer"
     },
     {
@@ -216,7 +243,7 @@
       "source_file": "Backend/inventario/serializers.py",
       "source_location": "L5",
       "id": "inventario_serializers_meta",
-      "community": 35,
+      "community": 3,
       "norm_label": "meta"
     },
     {
@@ -234,7 +261,7 @@
       "source_file": "Backend/inventario/urls.py",
       "source_location": "L1",
       "id": "backend_inventario_urls_py",
-      "community": 35,
+      "community": 3,
       "norm_label": "urls.py"
     },
     {
@@ -243,7 +270,7 @@
       "source_file": "Backend/inventario/views.py",
       "source_location": "L1",
       "id": "backend_inventario_views_py",
-      "community": 35,
+      "community": 3,
       "norm_label": "views.py"
     },
     {
@@ -252,7 +279,7 @@
       "source_file": "Backend/inventario/views.py",
       "source_location": "L8",
       "id": "inventario_views_movimientoinventarioviewset",
-      "community": 35,
+      "community": 3,
       "norm_label": "movimientoinventarioviewset"
     },
     {
@@ -261,7 +288,7 @@
       "source_file": "Backend/inventario/views.py",
       "source_location": "L16",
       "id": "inventario_views_por_producto",
-      "community": 35,
+      "community": 3,
       "norm_label": "por_producto()"
     },
     {
@@ -2047,6 +2074,24 @@
       "norm_label": "logout()"
     },
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 44,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "covagro_sii_claude_graphify",
+      "community": 44,
+      "norm_label": "graphify"
+    },
+    {
       "label": "paths-backend.md",
       "file_type": "document",
       "source_file": "paths-backend.md",
@@ -3047,6 +3092,26 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -5661,9 +5726,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_name",
-      "confidence_score": 1.0
+      "target": "frontend_package_name"
     },
     {
       "relation": "contains",
@@ -5671,9 +5736,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_private",
-      "confidence_score": 1.0
+      "target": "frontend_package_private"
     },
     {
       "relation": "contains",
@@ -5681,9 +5746,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_version",
-      "confidence_score": 1.0
+      "target": "frontend_package_version"
     },
     {
       "relation": "contains",
@@ -5691,9 +5756,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_type",
-      "confidence_score": 1.0
+      "target": "frontend_package_type"
     },
     {
       "relation": "contains",
@@ -5701,9 +5766,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_scripts",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts"
     },
     {
       "relation": "contains",
@@ -5711,9 +5776,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_dependencies",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies"
     },
     {
       "relation": "contains",
@@ -5721,9 +5786,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -5731,9 +5796,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -5741,9 +5806,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -5751,9 +5816,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -5761,9 +5826,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_preview",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_preview"
     },
     {
       "relation": "contains",
@@ -5771,9 +5836,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_axios",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_axios"
     },
     {
       "relation": "contains",
@@ -5781,9 +5846,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_bootstrap",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_bootstrap"
     },
     {
       "relation": "contains",
@@ -5791,9 +5856,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -5801,9 +5866,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -5811,9 +5876,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_router_dom",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_react_router_dom"
     },
     {
       "relation": "contains",
@@ -5821,9 +5886,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_js",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_js"
     },
     {
       "relation": "contains",
@@ -5831,9 +5896,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -5841,9 +5906,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_types_react_dom"
     },
     {
       "relation": "contains",
@@ -5851,9 +5916,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "contains",
@@ -5861,9 +5926,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_autoprefixer",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_autoprefixer"
     },
     {
       "relation": "contains",
@@ -5871,9 +5936,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -5881,9 +5946,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "relation": "contains",
@@ -5891,9 +5956,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "relation": "contains",
@@ -5901,9 +5966,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_globals",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_globals"
     },
     {
       "relation": "contains",
@@ -5911,9 +5976,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_postcss",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_postcss"
     },
     {
       "relation": "contains",
@@ -5921,9 +5986,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_tailwindcss",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_tailwindcss"
     },
     {
       "relation": "contains",
@@ -5931,9 +5996,9 @@
       "source_file": "Frontend/package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_vite"
     },
     {
       "relation": "imports_from",
@@ -5942,9 +6007,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -5953,9 +6018,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "imports_from",
@@ -5964,9 +6029,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_components_protectedroute_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_protectedroute_jsx"
     },
     {
       "relation": "imports_from",
@@ -5975,9 +6040,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_login_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_login_jsx"
     },
     {
       "relation": "imports_from",
@@ -5986,9 +6051,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_catalogo_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_catalogo_jsx"
     },
     {
       "relation": "imports_from",
@@ -5997,9 +6062,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_nuevopedidocliente_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_nuevopedidocliente_jsx"
     },
     {
       "relation": "imports_from",
@@ -6008,9 +6073,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_mispedidos_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_mispedidos_jsx"
     },
     {
       "relation": "imports_from",
@@ -6019,9 +6084,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_nuevopedidoemp_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_nuevopedidoemp_jsx"
     },
     {
       "relation": "imports_from",
@@ -6030,9 +6095,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_consultarpedidos_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_consultarpedidos_jsx"
     },
     {
       "relation": "imports_from",
@@ -6041,9 +6106,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_editarpedido_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_editarpedido_jsx"
     },
     {
       "relation": "imports_from",
@@ -6052,9 +6117,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_inventario_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_inventario_jsx"
     },
     {
       "relation": "imports_from",
@@ -6063,9 +6128,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "frontend_src_pages_reportes_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_pages_reportes_jsx"
     },
     {
       "relation": "contains",
@@ -6073,9 +6138,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "src_app_ruta_default",
-      "confidence_score": 1.0
+      "target": "src_app_ruta_default"
     },
     {
       "relation": "contains",
@@ -6083,9 +6148,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "src_app_redirectdefault",
-      "confidence_score": 1.0
+      "target": "src_app_redirectdefault"
     },
     {
       "relation": "contains",
@@ -6093,9 +6158,9 @@
       "source_file": "Frontend/src/App.jsx",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
@@ -6104,9 +6169,9 @@
       "source_file": "Frontend/src/main.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_main_jsx",
-      "target": "frontend_src_app_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_app_jsx"
     },
     {
       "relation": "contains",
@@ -6156,9 +6221,9 @@
       "source_file": "Frontend/src/main.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_main_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6167,9 +6232,9 @@
       "source_file": "Frontend/src/main.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_main_jsx",
-      "target": "services_authcontext_authprovider",
-      "confidence_score": 1.0
+      "target": "services_authcontext_authprovider"
     },
     {
       "relation": "contains",
@@ -6177,9 +6242,9 @@
       "source_file": "Frontend/src/components/Breadcrumbs.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_breadcrumbs_jsx",
-      "target": "components_breadcrumbs_breadcrumbs",
-      "confidence_score": 1.0
+      "target": "components_breadcrumbs_breadcrumbs"
     },
     {
       "relation": "imports_from",
@@ -6188,9 +6253,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "frontend_src_components_breadcrumbs_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_breadcrumbs_jsx"
     },
     {
       "relation": "imports_from",
@@ -6199,9 +6264,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_components_breadcrumbs_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_breadcrumbs_jsx"
     },
     {
       "relation": "imports_from",
@@ -6210,9 +6275,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_components_breadcrumbs_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_breadcrumbs_jsx"
     },
     {
       "relation": "contains",
@@ -6231,9 +6296,9 @@
       "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_notificationbell_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "imports_from",
@@ -6242,9 +6307,9 @@
       "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_notificationbell_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6253,9 +6318,9 @@
       "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_notificationbell_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -6263,9 +6328,9 @@
       "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_notificationbell_jsx",
-      "target": "components_notificationbell_notificationbell",
-      "confidence_score": 1.0
+      "target": "components_notificationbell_notificationbell"
     },
     {
       "relation": "imports_from",
@@ -6274,9 +6339,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "frontend_src_components_notificationbell_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_notificationbell_jsx"
     },
     {
       "relation": "imports_from",
@@ -6285,9 +6350,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "frontend_src_components_notificationbell_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_notificationbell_jsx"
     },
     {
       "relation": "imports_from",
@@ -6296,9 +6361,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_components_notificationbell_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_notificationbell_jsx"
     },
     {
       "relation": "imports_from",
@@ -6307,9 +6372,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_components_notificationbell_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_notificationbell_jsx"
     },
     {
       "relation": "calls",
@@ -6339,9 +6404,9 @@
       "source_file": "Frontend/src/components/ProtectedRoute.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_protectedroute_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6350,9 +6415,9 @@
       "source_file": "Frontend/src/components/ProtectedRoute.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_protectedroute_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -6360,9 +6425,9 @@
       "source_file": "Frontend/src/components/ProtectedRoute.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_protectedroute_jsx",
-      "target": "components_protectedroute_protectedroute",
-      "confidence_score": 1.0
+      "target": "components_protectedroute_protectedroute"
     },
     {
       "relation": "calls",
@@ -6392,9 +6457,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6403,9 +6468,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -6413,9 +6478,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "components_sidebar_menus",
-      "confidence_score": 1.0
+      "target": "components_sidebar_menus"
     },
     {
       "relation": "contains",
@@ -6423,9 +6488,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "components_sidebar_avatares",
-      "confidence_score": 1.0
+      "target": "components_sidebar_avatares"
     },
     {
       "relation": "contains",
@@ -6433,9 +6498,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "components_sidebar_rol_label",
-      "confidence_score": 1.0
+      "target": "components_sidebar_rol_label"
     },
     {
       "relation": "contains",
@@ -6443,9 +6508,9 @@
       "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_sidebar_jsx",
-      "target": "components_sidebar_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "imports_from",
@@ -6454,9 +6519,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6465,9 +6530,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6476,9 +6541,9 @@
       "source_file": "Frontend/src/pages/EditarPedido.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_editarpedido_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6487,9 +6552,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6498,9 +6563,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6509,9 +6574,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidocliente_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6520,9 +6585,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidoemp_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "imports_from",
@@ -6531,9 +6596,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_components_sidebar_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_sidebar_jsx"
     },
     {
       "relation": "contains",
@@ -6592,9 +6657,9 @@
       "source_file": "Frontend/src/components/Spinner.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_spinner_jsx",
-      "target": "components_spinner_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner_spinner"
     },
     {
       "relation": "imports_from",
@@ -6603,9 +6668,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "frontend_src_components_spinner_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_spinner_jsx"
     },
     {
       "relation": "imports_from",
@@ -6614,9 +6679,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_components_spinner_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_spinner_jsx"
     },
     {
       "relation": "imports_from",
@@ -6625,9 +6690,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_components_spinner_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_spinner_jsx"
     },
     {
       "relation": "contains",
@@ -6645,9 +6710,9 @@
       "source_file": "Frontend/src/components/StatCard.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_components_statcard_jsx",
-      "target": "components_statcard_statcard",
-      "confidence_score": 1.0
+      "target": "components_statcard_statcard"
     },
     {
       "relation": "imports_from",
@@ -6656,9 +6721,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_components_statcard_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_statcard_jsx"
     },
     {
       "relation": "imports_from",
@@ -6667,9 +6732,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_components_statcard_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_components_statcard_jsx"
     },
     {
       "relation": "contains",
@@ -6688,9 +6753,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "contains",
@@ -6698,9 +6763,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_emoji_cat",
-      "confidence_score": 1.0
+      "target": "pages_catalogo_emoji_cat"
     },
     {
       "relation": "contains",
@@ -6708,9 +6773,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_css_cat",
-      "confidence_score": 1.0
+      "target": "pages_catalogo_css_cat"
     },
     {
       "relation": "contains",
@@ -6718,9 +6783,9 @@
       "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_catalogo",
-      "confidence_score": 1.0
+      "target": "pages_catalogo_catalogo"
     },
     {
       "relation": "contains",
@@ -6759,9 +6824,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "contains",
@@ -6769,9 +6834,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "pages_consultarpedidos_estado_class",
-      "confidence_score": 1.0
+      "target": "pages_consultarpedidos_estado_class"
     },
     {
       "relation": "contains",
@@ -6779,9 +6844,9 @@
       "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_consultarpedidos_jsx",
-      "target": "pages_consultarpedidos_consultarpedidos",
-      "confidence_score": 1.0
+      "target": "pages_consultarpedidos_consultarpedidos"
     },
     {
       "relation": "contains",
@@ -6810,9 +6875,9 @@
       "source_file": "Frontend/src/pages/EditarPedido.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_editarpedido_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "contains",
@@ -6820,9 +6885,9 @@
       "source_file": "Frontend/src/pages/EditarPedido.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_editarpedido_jsx",
-      "target": "pages_editarpedido_editarpedido",
-      "confidence_score": 1.0
+      "target": "pages_editarpedido_editarpedido"
     },
     {
       "relation": "contains",
@@ -6841,9 +6906,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "contains",
@@ -6851,9 +6916,9 @@
       "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_inventario_jsx",
-      "target": "pages_inventario_inventario",
-      "confidence_score": 1.0
+      "target": "pages_inventario_inventario"
     },
     {
       "relation": "contains",
@@ -6872,9 +6937,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6883,9 +6948,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "imports_from",
@@ -6894,9 +6959,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "frontend_src_services_authservice_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authservice_js"
     },
     {
       "relation": "imports",
@@ -6905,9 +6970,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "services_authservice_loginservice",
-      "confidence_score": 1.0
+      "target": "services_authservice_loginservice"
     },
     {
       "relation": "contains",
@@ -6915,9 +6980,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "pages_login_ruta_por_rol",
-      "confidence_score": 1.0
+      "target": "pages_login_ruta_por_rol"
     },
     {
       "relation": "contains",
@@ -6925,9 +6990,9 @@
       "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_login_jsx",
-      "target": "pages_login_login",
-      "confidence_score": 1.0
+      "target": "pages_login_login"
     },
     {
       "relation": "contains",
@@ -6967,9 +7032,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "imports_from",
@@ -6978,9 +7043,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -6989,9 +7054,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -6999,9 +7064,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "pages_mispedidos_estado_class",
-      "confidence_score": 1.0
+      "target": "pages_mispedidos_estado_class"
     },
     {
       "relation": "contains",
@@ -7009,9 +7074,9 @@
       "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_mispedidos_jsx",
-      "target": "pages_mispedidos_mispedidos",
-      "confidence_score": 1.0
+      "target": "pages_mispedidos_mispedidos"
     },
     {
       "relation": "contains",
@@ -7051,9 +7116,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidocliente_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "imports_from",
@@ -7062,9 +7127,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidocliente_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -7073,9 +7138,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidocliente_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -7083,9 +7148,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidocliente_jsx",
-      "target": "pages_nuevopedidocliente_nuevopedidocliente",
-      "confidence_score": 1.0
+      "target": "pages_nuevopedidocliente_nuevopedidocliente"
     },
     {
       "relation": "calls",
@@ -7115,9 +7180,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidoemp_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "imports_from",
@@ -7126,9 +7191,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidoemp_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -7137,9 +7202,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidoemp_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -7147,9 +7212,9 @@
       "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_nuevopedidoemp_jsx",
-      "target": "pages_nuevopedidoemp_nuevopedidoemp",
-      "confidence_score": 1.0
+      "target": "pages_nuevopedidoemp_nuevopedidoemp"
     },
     {
       "relation": "calls",
@@ -7179,9 +7244,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "imports_from",
@@ -7190,9 +7255,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "frontend_src_services_authcontext_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_authcontext_jsx"
     },
     {
       "relation": "imports",
@@ -7201,9 +7266,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -7211,9 +7276,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "pages_reportes_estado_class",
-      "confidence_score": 1.0
+      "target": "pages_reportes_estado_class"
     },
     {
       "relation": "contains",
@@ -7221,9 +7286,9 @@
       "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_pages_reportes_jsx",
-      "target": "pages_reportes_reportes",
-      "confidence_score": 1.0
+      "target": "pages_reportes_reportes"
     },
     {
       "relation": "contains",
@@ -7262,9 +7327,9 @@
       "source_file": "Frontend/src/services/api.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_api_js",
-      "target": "services_api_api",
-      "confidence_score": 1.0
+      "target": "services_api_api"
     },
     {
       "relation": "contains",
@@ -7272,9 +7337,9 @@
       "source_file": "Frontend/src/services/api.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_api_js",
-      "target": "services_api_token",
-      "confidence_score": 1.0
+      "target": "services_api_token"
     },
     {
       "relation": "imports_from",
@@ -7283,9 +7348,9 @@
       "source_file": "Frontend/src/services/authService.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authservice_js",
-      "target": "frontend_src_services_api_js",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_js"
     },
     {
       "relation": "contains",
@@ -7313,9 +7378,9 @@
       "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authcontext_jsx",
-      "target": "services_authcontext_authcontext",
-      "confidence_score": 1.0
+      "target": "services_authcontext_authcontext"
     },
     {
       "relation": "contains",
@@ -7323,9 +7388,9 @@
       "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authcontext_jsx",
-      "target": "services_authcontext_authprovider",
-      "confidence_score": 1.0
+      "target": "services_authcontext_authprovider"
     },
     {
       "relation": "contains",
@@ -7333,9 +7398,9 @@
       "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authcontext_jsx",
-      "target": "services_authcontext_useauth",
-      "confidence_score": 1.0
+      "target": "services_authcontext_useauth"
     },
     {
       "relation": "contains",
@@ -7483,9 +7548,9 @@
       "source_file": "Frontend/src/services/authService.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authservice_js",
-      "target": "services_authservice_loginservice",
-      "confidence_score": 1.0
+      "target": "services_authservice_loginservice"
     },
     {
       "relation": "contains",
@@ -7493,9 +7558,9 @@
       "source_file": "Frontend/src/services/authService.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_services_authservice_js",
-      "target": "services_authservice_logout",
-      "confidence_score": 1.0
+      "target": "services_authservice_logout"
     },
     {
       "relation": "imports",
@@ -7527,6 +7592,16 @@
       "confidence_score": 1.0,
       "source": "fronted_src_services_authservice_js",
       "target": "services_authservice_logout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "covagro_sii_claude_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7574,9 +7649,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "covagro_sii_readme_covagro_sii",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_covagro_sii"
     },
     {
       "relation": "contains",
@@ -7584,9 +7659,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_covagro_sii",
-      "target": "covagro_sii_readme_requisitos_previos",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_requisitos_previos"
     },
     {
       "relation": "contains",
@@ -7594,9 +7669,9 @@
       "source_file": "README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_covagro_sii",
-      "target": "covagro_sii_readme_descarga_del_proyecto",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_descarga_del_proyecto"
     },
     {
       "relation": "contains",
@@ -7604,9 +7679,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_covagro_sii",
-      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django"
     },
     {
       "relation": "contains",
@@ -7614,9 +7689,9 @@
       "source_file": "README.md",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_covagro_sii",
-      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite"
     },
     {
       "relation": "contains",
@@ -7624,9 +7699,9 @@
       "source_file": "README.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_covagro_sii",
-      "target": "covagro_sii_readme_automatizaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_automatizaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -7634,9 +7709,9 @@
       "source_file": "README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_descarga_del_proyecto",
-      "target": "covagro_sii_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -7644,9 +7719,9 @@
       "source_file": "README.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -7654,9 +7729,9 @@
       "source_file": "README.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -7664,9 +7739,9 @@
       "source_file": "README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -7674,9 +7749,9 @@
       "source_file": "README.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_5",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_5"
     },
     {
       "relation": "contains",
@@ -7684,9 +7759,9 @@
       "source_file": "README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_6",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_6"
     },
     {
       "relation": "contains",
@@ -7694,9 +7769,9 @@
       "source_file": "README.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_7",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_7"
     },
     {
       "relation": "contains",
@@ -7704,9 +7779,9 @@
       "source_file": "README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
-      "target": "covagro_sii_readme_codeblock_8",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_8"
     },
     {
       "relation": "contains",
@@ -7714,9 +7789,9 @@
       "source_file": "README.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
-      "target": "covagro_sii_readme_codeblock_9",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_9"
     },
     {
       "relation": "contains",
@@ -7724,9 +7799,9 @@
       "source_file": "README.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
-      "target": "covagro_sii_readme_codeblock_10",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_10"
     },
     {
       "relation": "contains",
@@ -7734,9 +7809,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
-      "target": "covagro_sii_readme_codeblock_11",
-      "confidence_score": 1.0
+      "target": "covagro_sii_readme_codeblock_11"
     },
     {
       "relation": "contains",
@@ -7764,9 +7839,9 @@
       "source_file": ".github/copilot-instructions.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "github_copilot_instructions_md",
-      "target": "github_copilot_instructions_graphify",
-      "confidence_score": 1.0
+      "target": "github_copilot_instructions_graphify"
     },
     {
       "relation": "contains",
@@ -7774,9 +7849,9 @@
       "source_file": "Frontend/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_readme_md",
-      "target": "frontend_readme_react_vite",
-      "confidence_score": 1.0
+      "target": "frontend_readme_react_vite"
     },
     {
       "relation": "contains",
@@ -7784,9 +7859,9 @@
       "source_file": "Frontend/README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_readme_react_vite",
-      "target": "frontend_readme_react_compiler",
-      "confidence_score": 1.0
+      "target": "frontend_readme_react_compiler"
     },
     {
       "relation": "contains",
@@ -7794,9 +7869,9 @@
       "source_file": "Frontend/README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_readme_react_vite",
-      "target": "frontend_readme_expanding_the_eslint_configuration",
-      "confidence_score": 1.0
+      "target": "frontend_readme_expanding_the_eslint_configuration"
     },
     {
       "relation": "contains",
@@ -8892,5 +8967,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "edb587cc3f3ea0b8202612da402702dfd613ca6f"
+  "built_at_commit": "1e1288ed1bde4b3ca943247a4bc2c941022862ff"
 }

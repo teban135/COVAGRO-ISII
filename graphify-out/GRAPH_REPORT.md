@@ -1,16 +1,16 @@
 # Graph Report - Covagro-SII  (2026-05-20)
 
 ## Corpus Check
-- 80 files · ~125,724 words
+- 82 files · ~125,909 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 338 nodes · 568 edges · 44 communities (31 shown, 13 thin omitted)
-- Extraction: 76% EXTRACTED · 24% INFERRED · 0% AMBIGUOUS · INFERRED: 134 edges (avg confidence: 0.5)
+- 343 nodes · 571 edges · 45 communities (30 shown, 15 thin omitted)
+- Extraction: 77% EXTRACTED · 23% INFERRED · 0% AMBIGUOUS · INFERRED: 134 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `edb587cc`
+- Built from commit: `1e1288ed`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,6 +41,7 @@
 - [[_COMMUNITY_Community 39|Community 39]]
 - [[_COMMUNITY_Community 40|Community 40]]
 - [[_COMMUNITY_Community 41|Community 41]]
+- [[_COMMUNITY_Community 44|Community 44]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `useAuth()` - 29 edges
@@ -66,7 +67,7 @@
 - `PedidoViewSet` --uses--> `MovimientoInventario`  [INFERRED]
   Backend/pedidos/views.py → Backend/inventario/models.py
 
-## Communities (44 total, 13 thin omitted)
+## Communities (45 total, 15 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -81,8 +82,8 @@ Cohesion: 0.19
 Nodes (18): DetallePedido, EstadoPedido, HistorialEstado, Meta, Notificacion, Pedido, DetallePedidoSerializer, EstadoPedidoSerializer (+10 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.21
-Nodes (7): Categoria, CategoriaSerializer, Meta, ProductoSerializer, CategoriaViewSet, ProductoViewSet, EsEmpleadoOAdmin
+Cohesion: 0.12
+Nodes (11): MovimientoInventario, Meta, MovimientoInventarioSerializer, MovimientoInventarioViewSet, Categoria, CategoriaSerializer, Meta, ProductoSerializer (+3 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.07
@@ -99,10 +100,6 @@ Nodes (5): AppConfig, InventarioConfig, PedidosConfig, ProductosConfig, Usuarios
 ### Community 8 - "Community 8"
 Cohesion: 0.50
 Nodes (3): Expanding the ESLint configuration, React Compiler, React + Vite
-
-### Community 35 - "Community 35"
-Cohesion: 0.27
-Nodes (4): MovimientoInventario, Meta, MovimientoInventarioSerializer, MovimientoInventarioViewSet
 
 ### Community 37 - "Community 37"
 Cohesion: 0.07
@@ -121,19 +118,19 @@ Cohesion: 0.50
 Nodes (3): Expanding the ESLint configuration, React Compiler, React + Vite
 
 ## Knowledge Gaps
-- **88 isolated node(s):** `Migration`, `Migration`, `name`, `private`, `version` (+83 more)
+- **90 isolated node(s):** `PreToolUse`, `Migration`, `Migration`, `name`, `private` (+85 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Usuario` connect `Community 1` to `Community 2`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
-- **Why does `Producto` connect `Community 2` to `Community 35`, `Community 3`?**
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **Why does `Producto` connect `Community 2` to `Community 3`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **Why does `EsEmpleadoOAdmin` connect `Community 3` to `Community 1`, `Community 2`, `Community 35`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **Why does `EsEmpleadoOAdmin` connect `Community 3` to `Community 1`, `Community 2`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Are the 16 inferred relationships involving `Producto` (e.g. with `MovimientoInventario` and `EstadoPedido`) actually correct?**
   _`Producto` has 16 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 13 inferred relationships involving `PedidoViewSet` (e.g. with `EstadoPedido` and `Pedido`) actually correct?**
