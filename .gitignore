@@ -259,6 +259,6 @@ graphify-out/
 .github/
 .claude/
 CLAUDE.md
-.agents
+.agents/
 
 # End of .gitignore
