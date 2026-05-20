@@ -180,7 +180,7 @@
       "source_file": "Backend/inventario/models.py",
       "source_location": "L4",
       "id": "inventario_models_movimientoinventario",
-      "community": 2,
+      "community": 35,
       "norm_label": "movimientoinventario"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "Backend/inventario/models.py",
       "source_location": "L16",
       "id": "inventario_models_movimientoinventario_str",
-      "community": 2,
+      "community": 35,
       "norm_label": ".__str__()"
     },
     {
@@ -1284,295 +1284,295 @@
     {
       "label": "eslint.config.js",
       "file_type": "code",
-      "source_file": "Fronted/eslint.config.js",
+      "source_file": "Frontend/eslint.config.js",
       "source_location": "L1",
-      "id": "fronted_eslint_config_js",
-      "community": 33,
+      "id": "frontend_eslint_config_js",
+      "community": 42,
       "norm_label": "eslint.config.js"
     },
     {
       "label": "package.json",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L1",
-      "id": "fronted_package_json",
-      "community": 4,
+      "id": "frontend_package_json",
+      "community": 37,
       "norm_label": "package.json"
     },
     {
       "label": "name",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L2",
-      "id": "fronted_package_name",
-      "community": 4,
+      "id": "frontend_package_name",
+      "community": 37,
       "norm_label": "name"
     },
     {
       "label": "private",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L3",
-      "id": "fronted_package_private",
-      "community": 4,
+      "id": "frontend_package_private",
+      "community": 37,
       "norm_label": "private"
     },
     {
       "label": "version",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L4",
-      "id": "fronted_package_version",
-      "community": 4,
+      "id": "frontend_package_version",
+      "community": 37,
       "norm_label": "version"
     },
     {
       "label": "type",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L5",
-      "id": "fronted_package_type",
-      "community": 4,
+      "id": "frontend_package_type",
+      "community": 37,
       "norm_label": "type"
     },
     {
       "label": "scripts",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L6",
-      "id": "fronted_package_scripts",
-      "community": 4,
+      "id": "frontend_package_scripts",
+      "community": 37,
       "norm_label": "scripts"
     },
     {
       "label": "dev",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L7",
-      "id": "fronted_package_scripts_dev",
-      "community": 4,
+      "id": "frontend_package_scripts_dev",
+      "community": 37,
       "norm_label": "dev"
     },
     {
       "label": "build",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L8",
-      "id": "fronted_package_scripts_build",
-      "community": 4,
+      "id": "frontend_package_scripts_build",
+      "community": 37,
       "norm_label": "build"
     },
     {
       "label": "lint",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L9",
-      "id": "fronted_package_scripts_lint",
-      "community": 4,
+      "id": "frontend_package_scripts_lint",
+      "community": 37,
       "norm_label": "lint"
     },
     {
       "label": "preview",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L10",
-      "id": "fronted_package_scripts_preview",
-      "community": 4,
+      "id": "frontend_package_scripts_preview",
+      "community": 37,
       "norm_label": "preview"
     },
     {
       "label": "dependencies",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L12",
-      "id": "fronted_package_dependencies",
-      "community": 4,
+      "id": "frontend_package_dependencies",
+      "community": 37,
       "norm_label": "dependencies"
     },
     {
       "label": "axios",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L13",
-      "id": "fronted_package_dependencies_axios",
-      "community": 4,
+      "id": "frontend_package_dependencies_axios",
+      "community": 37,
       "norm_label": "axios"
     },
     {
       "label": "bootstrap",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L14",
-      "id": "fronted_package_dependencies_bootstrap",
-      "community": 4,
+      "id": "frontend_package_dependencies_bootstrap",
+      "community": 37,
       "norm_label": "bootstrap"
     },
     {
       "label": "react",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L15",
-      "id": "fronted_package_dependencies_react",
-      "community": 4,
+      "id": "frontend_package_dependencies_react",
+      "community": 37,
       "norm_label": "react"
     },
     {
       "label": "react-dom",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L16",
-      "id": "fronted_package_dependencies_react_dom",
-      "community": 4,
+      "id": "frontend_package_dependencies_react_dom",
+      "community": 37,
       "norm_label": "react-dom"
     },
     {
       "label": "react-router-dom",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L17",
-      "id": "fronted_package_dependencies_react_router_dom",
-      "community": 4,
+      "id": "frontend_package_dependencies_react_router_dom",
+      "community": 37,
       "norm_label": "react-router-dom"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L19",
-      "id": "fronted_package_devdependencies",
-      "community": 4,
+      "id": "frontend_package_devdependencies",
+      "community": 37,
       "norm_label": "devdependencies"
     },
     {
       "label": "@eslint/js",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L20",
-      "id": "fronted_package_devdependencies_eslint_js",
-      "community": 4,
+      "id": "frontend_package_devdependencies_eslint_js",
+      "community": 37,
       "norm_label": "@eslint/js"
     },
     {
       "label": "@types/react",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L21",
-      "id": "fronted_package_devdependencies_types_react",
-      "community": 4,
+      "id": "frontend_package_devdependencies_types_react",
+      "community": 37,
       "norm_label": "@types/react"
     },
     {
       "label": "@types/react-dom",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L22",
-      "id": "fronted_package_devdependencies_types_react_dom",
-      "community": 4,
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "community": 37,
       "norm_label": "@types/react-dom"
     },
     {
       "label": "@vitejs/plugin-react",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L23",
-      "id": "fronted_package_devdependencies_vitejs_plugin_react",
-      "community": 4,
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "community": 37,
       "norm_label": "@vitejs/plugin-react"
     },
     {
       "label": "autoprefixer",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L24",
-      "id": "fronted_package_devdependencies_autoprefixer",
-      "community": 4,
+      "id": "frontend_package_devdependencies_autoprefixer",
+      "community": 37,
       "norm_label": "autoprefixer"
     },
     {
       "label": "eslint",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L25",
-      "id": "fronted_package_devdependencies_eslint",
-      "community": 4,
+      "id": "frontend_package_devdependencies_eslint",
+      "community": 37,
       "norm_label": "eslint"
     },
     {
       "label": "eslint-plugin-react-hooks",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L26",
-      "id": "fronted_package_devdependencies_eslint_plugin_react_hooks",
-      "community": 4,
+      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 37,
       "norm_label": "eslint-plugin-react-hooks"
     },
     {
       "label": "eslint-plugin-react-refresh",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L27",
-      "id": "fronted_package_devdependencies_eslint_plugin_react_refresh",
-      "community": 4,
+      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 37,
       "norm_label": "eslint-plugin-react-refresh"
     },
     {
       "label": "globals",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L28",
-      "id": "fronted_package_devdependencies_globals",
-      "community": 4,
+      "id": "frontend_package_devdependencies_globals",
+      "community": 37,
       "norm_label": "globals"
     },
     {
       "label": "postcss",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L29",
-      "id": "fronted_package_devdependencies_postcss",
-      "community": 4,
+      "id": "frontend_package_devdependencies_postcss",
+      "community": 37,
       "norm_label": "postcss"
     },
     {
       "label": "tailwindcss",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L30",
-      "id": "fronted_package_devdependencies_tailwindcss",
-      "community": 4,
+      "id": "frontend_package_devdependencies_tailwindcss",
+      "community": 37,
       "norm_label": "tailwindcss"
     },
     {
       "label": "vite",
       "file_type": "code",
-      "source_file": "Fronted/package.json",
+      "source_file": "Frontend/package.json",
       "source_location": "L31",
-      "id": "fronted_package_devdependencies_vite",
-      "community": 4,
+      "id": "frontend_package_devdependencies_vite",
+      "community": 37,
       "norm_label": "vite"
     },
     {
       "label": "vite.config.js",
       "file_type": "code",
-      "source_file": "Fronted/vite.config.js",
+      "source_file": "Frontend/vite.config.js",
       "source_location": "L1",
-      "id": "fronted_vite_config_js",
-      "community": 34,
+      "id": "frontend_vite_config_js",
+      "community": 43,
       "norm_label": "vite.config.js"
     },
     {
       "label": "App.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/App.jsx",
+      "source_file": "Frontend/src/App.jsx",
       "source_location": "L1",
-      "id": "fronted_src_app_jsx",
+      "id": "frontend_src_app_jsx",
       "community": 0,
       "norm_label": "app.jsx"
     },
     {
       "label": "RUTA_DEFAULT",
       "file_type": "code",
-      "source_file": "Fronted/src/App.jsx",
+      "source_file": "Frontend/src/App.jsx",
       "source_location": "L15",
       "id": "src_app_ruta_default",
       "community": 0,
@@ -1581,7 +1581,7 @@
     {
       "label": "RedirectDefault()",
       "file_type": "code",
-      "source_file": "Fronted/src/App.jsx",
+      "source_file": "Frontend/src/App.jsx",
       "source_location": "L17",
       "id": "src_app_redirectdefault",
       "community": 0,
@@ -1590,7 +1590,7 @@
     {
       "label": "App()",
       "file_type": "code",
-      "source_file": "Fronted/src/App.jsx",
+      "source_file": "Frontend/src/App.jsx",
       "source_location": "L22",
       "id": "src_app_app",
       "community": 0,
@@ -1599,25 +1599,25 @@
     {
       "label": "main.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/main.jsx",
+      "source_file": "Frontend/src/main.jsx",
       "source_location": "L1",
-      "id": "fronted_src_main_jsx",
+      "id": "frontend_src_main_jsx",
       "community": 0,
       "norm_label": "main.jsx"
     },
     {
       "label": "Breadcrumbs.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Breadcrumbs.jsx",
+      "source_file": "Frontend/src/components/Breadcrumbs.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_breadcrumbs_jsx",
+      "id": "frontend_src_components_breadcrumbs_jsx",
       "community": 0,
       "norm_label": "breadcrumbs.jsx"
     },
     {
       "label": "Breadcrumbs()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Breadcrumbs.jsx",
+      "source_file": "Frontend/src/components/Breadcrumbs.jsx",
       "source_location": "L3",
       "id": "components_breadcrumbs_breadcrumbs",
       "community": 0,
@@ -1626,16 +1626,16 @@
     {
       "label": "NotificationBell.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_notificationbell_jsx",
+      "id": "frontend_src_components_notificationbell_jsx",
       "community": 0,
       "norm_label": "notificationbell.jsx"
     },
     {
       "label": "NotificationBell()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
       "source_location": "L5",
       "id": "components_notificationbell_notificationbell",
       "community": 0,
@@ -1644,16 +1644,16 @@
     {
       "label": "ProtectedRoute.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_file": "Frontend/src/components/ProtectedRoute.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_protectedroute_jsx",
+      "id": "frontend_src_components_protectedroute_jsx",
       "community": 0,
       "norm_label": "protectedroute.jsx"
     },
     {
       "label": "ProtectedRoute()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_file": "Frontend/src/components/ProtectedRoute.jsx",
       "source_location": "L4",
       "id": "components_protectedroute_protectedroute",
       "community": 0,
@@ -1662,16 +1662,16 @@
     {
       "label": "Sidebar.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_sidebar_jsx",
+      "id": "frontend_src_components_sidebar_jsx",
       "community": 0,
       "norm_label": "sidebar.jsx"
     },
     {
       "label": "MENUS",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L5",
       "id": "components_sidebar_menus",
       "community": 0,
@@ -1680,7 +1680,7 @@
     {
       "label": "AVATARES",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L31",
       "id": "components_sidebar_avatares",
       "community": 0,
@@ -1689,7 +1689,7 @@
     {
       "label": "ROL_LABEL",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L32",
       "id": "components_sidebar_rol_label",
       "community": 0,
@@ -1698,7 +1698,7 @@
     {
       "label": "Sidebar()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
       "source_location": "L34",
       "id": "components_sidebar_sidebar",
       "community": 0,
@@ -1707,16 +1707,16 @@
     {
       "label": "Spinner.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Spinner.jsx",
+      "source_file": "Frontend/src/components/Spinner.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_spinner_jsx",
+      "id": "frontend_src_components_spinner_jsx",
       "community": 0,
       "norm_label": "spinner.jsx"
     },
     {
       "label": "Spinner()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/Spinner.jsx",
+      "source_file": "Frontend/src/components/Spinner.jsx",
       "source_location": "L1",
       "id": "components_spinner_spinner",
       "community": 0,
@@ -1725,16 +1725,16 @@
     {
       "label": "StatCard.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/components/StatCard.jsx",
+      "source_file": "Frontend/src/components/StatCard.jsx",
       "source_location": "L1",
-      "id": "fronted_src_components_statcard_jsx",
+      "id": "frontend_src_components_statcard_jsx",
       "community": 0,
       "norm_label": "statcard.jsx"
     },
     {
       "label": "StatCard()",
       "file_type": "code",
-      "source_file": "Fronted/src/components/StatCard.jsx",
+      "source_file": "Frontend/src/components/StatCard.jsx",
       "source_location": "L1",
       "id": "components_statcard_statcard",
       "community": 0,
@@ -1743,16 +1743,16 @@
     {
       "label": "Catalogo.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_catalogo_jsx",
+      "id": "frontend_src_pages_catalogo_jsx",
       "community": 0,
       "norm_label": "catalogo.jsx"
     },
     {
       "label": "EMOJI_CAT",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L6",
       "id": "pages_catalogo_emoji_cat",
       "community": 0,
@@ -1761,7 +1761,7 @@
     {
       "label": "CSS_CAT",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L7",
       "id": "pages_catalogo_css_cat",
       "community": 0,
@@ -1770,7 +1770,7 @@
     {
       "label": "Catalogo()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
       "source_location": "L11",
       "id": "pages_catalogo_catalogo",
       "community": 0,
@@ -1779,16 +1779,16 @@
     {
       "label": "ConsultarPedidos.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_consultarpedidos_jsx",
+      "id": "frontend_src_pages_consultarpedidos_jsx",
       "community": 0,
       "norm_label": "consultarpedidos.jsx"
     },
     {
       "label": "ESTADO_CLASS",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L9",
       "id": "pages_consultarpedidos_estado_class",
       "community": 0,
@@ -1797,7 +1797,7 @@
     {
       "label": "ConsultarPedidos()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
       "source_location": "L16",
       "id": "pages_consultarpedidos_consultarpedidos",
       "community": 0,
@@ -1806,16 +1806,16 @@
     {
       "label": "EditarPedido.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/EditarPedido.jsx",
+      "source_file": "Frontend/src/pages/EditarPedido.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_editarpedido_jsx",
+      "id": "frontend_src_pages_editarpedido_jsx",
       "community": 0,
       "norm_label": "editarpedido.jsx"
     },
     {
       "label": "EditarPedido()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/EditarPedido.jsx",
+      "source_file": "Frontend/src/pages/EditarPedido.jsx",
       "source_location": "L6",
       "id": "pages_editarpedido_editarpedido",
       "community": 0,
@@ -1824,16 +1824,16 @@
     {
       "label": "Inventario.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Inventario.jsx",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_inventario_jsx",
+      "id": "frontend_src_pages_inventario_jsx",
       "community": 0,
       "norm_label": "inventario.jsx"
     },
     {
       "label": "Inventario()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Inventario.jsx",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
       "source_location": "L9",
       "id": "pages_inventario_inventario",
       "community": 0,
@@ -1842,43 +1842,43 @@
     {
       "label": "Login.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_login_jsx",
-      "community": 0,
+      "id": "frontend_src_pages_login_jsx",
+      "community": 39,
       "norm_label": "login.jsx"
     },
     {
       "label": "RUTA_POR_ROL",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L7",
       "id": "pages_login_ruta_por_rol",
-      "community": 0,
+      "community": 39,
       "norm_label": "ruta_por_rol"
     },
     {
       "label": "Login()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_file": "Frontend/src/pages/Login.jsx",
       "source_location": "L13",
       "id": "pages_login_login",
-      "community": 0,
+      "community": 39,
       "norm_label": "login()"
     },
     {
       "label": "MisPedidos.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_mispedidos_jsx",
+      "id": "frontend_src_pages_mispedidos_jsx",
       "community": 0,
       "norm_label": "mispedidos.jsx"
     },
     {
       "label": "ESTADO_CLASS",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L7",
       "id": "pages_mispedidos_estado_class",
       "community": 0,
@@ -1887,7 +1887,7 @@
     {
       "label": "MisPedidos()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
       "source_location": "L14",
       "id": "pages_mispedidos_mispedidos",
       "community": 0,
@@ -1896,16 +1896,16 @@
     {
       "label": "NuevoPedidoCliente.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_nuevopedidocliente_jsx",
+      "id": "frontend_src_pages_nuevopedidocliente_jsx",
       "community": 0,
       "norm_label": "nuevopedidocliente.jsx"
     },
     {
       "label": "NuevoPedidoCliente()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
       "source_location": "L7",
       "id": "pages_nuevopedidocliente_nuevopedidocliente",
       "community": 0,
@@ -1914,16 +1914,16 @@
     {
       "label": "NuevoPedidoEmp.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_nuevopedidoemp_jsx",
+      "id": "frontend_src_pages_nuevopedidoemp_jsx",
       "community": 0,
       "norm_label": "nuevopedidoemp.jsx"
     },
     {
       "label": "NuevoPedidoEmp()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
       "source_location": "L7",
       "id": "pages_nuevopedidoemp_nuevopedidoemp",
       "community": 0,
@@ -1932,16 +1932,16 @@
     {
       "label": "Reportes.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L1",
-      "id": "fronted_src_pages_reportes_jsx",
+      "id": "frontend_src_pages_reportes_jsx",
       "community": 0,
       "norm_label": "reportes.jsx"
     },
     {
       "label": "ESTADO_CLASS",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L10",
       "id": "pages_reportes_estado_class",
       "community": 0,
@@ -1950,7 +1950,7 @@
     {
       "label": "Reportes()",
       "file_type": "code",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
       "source_location": "L17",
       "id": "pages_reportes_reportes",
       "community": 0,
@@ -1959,16 +1959,16 @@
     {
       "label": "api.js",
       "file_type": "code",
-      "source_file": "Fronted/src/services/api.js",
+      "source_file": "Frontend/src/services/api.js",
       "source_location": "L1",
-      "id": "fronted_src_services_api_js",
+      "id": "frontend_src_services_api_js",
       "community": 0,
       "norm_label": "api.js"
     },
     {
       "label": "api",
       "file_type": "code",
-      "source_file": "Fronted/src/services/api.js",
+      "source_file": "Frontend/src/services/api.js",
       "source_location": "L3",
       "id": "services_api_api",
       "community": 0,
@@ -1977,7 +1977,7 @@
     {
       "label": "token",
       "file_type": "code",
-      "source_file": "Fronted/src/services/api.js",
+      "source_file": "Frontend/src/services/api.js",
       "source_location": "L9",
       "id": "services_api_token",
       "community": 0,
@@ -1986,16 +1986,16 @@
     {
       "label": "authContext.jsx",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L1",
-      "id": "fronted_src_services_authcontext_jsx",
+      "id": "frontend_src_services_authcontext_jsx",
       "community": 0,
       "norm_label": "authcontext.jsx"
     },
     {
       "label": "AuthContext",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L3",
       "id": "services_authcontext_authcontext",
       "community": 0,
@@ -2004,7 +2004,7 @@
     {
       "label": "AuthProvider()",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L5",
       "id": "services_authcontext_authprovider",
       "community": 0,
@@ -2013,7 +2013,7 @@
     {
       "label": "useAuth()",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_file": "Frontend/src/services/authContext.jsx",
       "source_location": "L34",
       "id": "services_authcontext_useauth",
       "community": 0,
@@ -2022,227 +2022,29 @@
     {
       "label": "authService.js",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authService.js",
+      "source_file": "Frontend/src/services/authService.js",
       "source_location": "L1",
-      "id": "fronted_src_services_authservice_js",
-      "community": 0,
+      "id": "frontend_src_services_authservice_js",
+      "community": 39,
       "norm_label": "authservice.js"
     },
     {
       "label": "loginService()",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authService.js",
+      "source_file": "Frontend/src/services/authService.js",
       "source_location": "L4",
       "id": "services_authservice_loginservice",
-      "community": 0,
+      "community": 39,
       "norm_label": "loginservice()"
     },
     {
       "label": "logout()",
       "file_type": "code",
-      "source_file": "Fronted/src/services/authService.js",
+      "source_file": "Frontend/src/services/authService.js",
       "source_location": "L29",
       "id": "services_authservice_logout",
-      "community": 0,
+      "community": 39,
       "norm_label": "logout()"
-    },
-    {
-      "label": "implementation_plan.md",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L1",
-      "id": "implementation_plan_md",
-      "community": 5,
-      "norm_label": "implementation_plan.md"
-    },
-    {
-      "label": "Covagro-SII Implementation Plan",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L1",
-      "id": "covagro_sii_implementation_plan_covagro_sii_implementation_plan",
-      "community": 5,
-      "norm_label": "covagro-sii implementation plan"
-    },
-    {
-      "label": "User Review Required",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L5",
-      "id": "covagro_sii_implementation_plan_user_review_required",
-      "community": 5,
-      "norm_label": "user review required"
-    },
-    {
-      "label": "Proposed Changes",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L13",
-      "id": "covagro_sii_implementation_plan_proposed_changes",
-      "community": 5,
-      "norm_label": "proposed changes"
-    },
-    {
-      "label": "Phase 0: Error Identification & Debugging",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L17",
-      "id": "covagro_sii_implementation_plan_phase_0_error_identification_debugging",
-      "community": 5,
-      "norm_label": "phase 0: error identification & debugging"
-    },
-    {
-      "label": "[MODIFY] [settings.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/config/settings.py)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L19",
-      "id": "covagro_sii_implementation_plan_modify_settings_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_config_settings_py",
-      "community": 5,
-      "norm_label": "[modify] [settings.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/config/settings.py)"
-    },
-    {
-      "label": "[MODIFY] Frontend Templates",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L23",
-      "id": "covagro_sii_implementation_plan_modify_frontend_templates",
-      "community": 5,
-      "norm_label": "[modify] frontend templates"
-    },
-    {
-      "label": "Phase 1: Order Management & Notifications",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L29",
-      "id": "covagro_sii_implementation_plan_phase_1_order_management_notifications",
-      "community": 5,
-      "norm_label": "phase 1: order management & notifications"
-    },
-    {
-      "label": "[MODIFY] [models.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/pedidos/models.py)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L31",
-      "id": "covagro_sii_implementation_plan_modify_models_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_pedidos_models_py",
-      "community": 5,
-      "norm_label": "[modify] [models.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/pedidos/models.py)"
-    },
-    {
-      "label": "[MODIFY] [views.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/pedidos/views.py)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L35",
-      "id": "covagro_sii_implementation_plan_modify_views_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_pedidos_views_py",
-      "community": 5,
-      "norm_label": "[modify] [views.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/pedidos/views.py)"
-    },
-    {
-      "label": "[NEW] Notification Component (Frontend)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L39",
-      "id": "covagro_sii_implementation_plan_new_notification_component_frontend",
-      "community": 5,
-      "norm_label": "[new] notification component (frontend)"
-    },
-    {
-      "label": "Phase 2: Report Customization",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L44",
-      "id": "covagro_sii_implementation_plan_phase_2_report_customization",
-      "community": 5,
-      "norm_label": "phase 2: report customization"
-    },
-    {
-      "label": "[MODIFY] [views.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/inventario/views.py) (or relevant report view)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L46",
-      "id": "covagro_sii_implementation_plan_modify_views_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_inventario_views_py_or_relevant_report_view",
-      "community": 5,
-      "norm_label": "[modify] [views.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/inventario/views.py) (or relevant report view)"
-    },
-    {
-      "label": "[MODIFY] Frontend Report Tables",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L55",
-      "id": "covagro_sii_implementation_plan_modify_frontend_report_tables",
-      "community": 5,
-      "norm_label": "[modify] frontend report tables"
-    },
-    {
-      "label": "Phase 3: Admin Interface Improvements",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L61",
-      "id": "covagro_sii_implementation_plan_phase_3_admin_interface_improvements",
-      "community": 5,
-      "norm_label": "phase 3: admin interface improvements"
-    },
-    {
-      "label": "[MODIFY] [urls.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/config/urls.py)",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L63",
-      "id": "covagro_sii_implementation_plan_modify_urls_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_config_urls_py",
-      "community": 5,
-      "norm_label": "[modify] [urls.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/config/urls.py)"
-    },
-    {
-      "label": "[NEW] Breadcrumbs Component",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L66",
-      "id": "covagro_sii_implementation_plan_new_breadcrumbs_component",
-      "community": 5,
-      "norm_label": "[new] breadcrumbs component"
-    },
-    {
-      "label": "[MODIFY] Performance & UX",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L69",
-      "id": "covagro_sii_implementation_plan_modify_performance_ux",
-      "community": 5,
-      "norm_label": "[modify] performance & ux"
-    },
-    {
-      "label": "Verification Plan",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L75",
-      "id": "covagro_sii_implementation_plan_verification_plan",
-      "community": 5,
-      "norm_label": "verification plan"
-    },
-    {
-      "label": "Automated Tests",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L77",
-      "id": "covagro_sii_implementation_plan_automated_tests",
-      "community": 5,
-      "norm_label": "automated tests"
-    },
-    {
-      "label": "Manual Verification",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L81",
-      "id": "covagro_sii_implementation_plan_manual_verification",
-      "community": 5,
-      "norm_label": "manual verification"
-    },
-    {
-      "label": "Cronograma Sugerido",
-      "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L88",
-      "id": "covagro_sii_implementation_plan_cronograma_sugerido",
-      "community": 5,
-      "norm_label": "cronograma sugerido"
     },
     {
       "label": "paths-backend.md",
@@ -2299,6 +2101,168 @@
       "norm_label": "code:block1 (\u251c\u2500\u2500 \ud83d\udcc1 public)"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 38,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Covagro SII",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "covagro_sii_readme_covagro_sii",
+      "community": 38,
+      "norm_label": "covagro sii"
+    },
+    {
+      "label": "Requisitos Previos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "covagro_sii_readme_requisitos_previos",
+      "community": 38,
+      "norm_label": "requisitos previos"
+    },
+    {
+      "label": "\ud83d\udce5 Descarga del Proyecto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "id": "covagro_sii_readme_descarga_del_proyecto",
+      "community": 38,
+      "norm_label": "\ud83d\udce5 descarga del proyecto"
+    },
+    {
+      "label": "code:bash (git clone <URL_DEL_REPOSITORIO>)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "covagro_sii_readme_codeblock_1",
+      "community": 38,
+      "norm_label": "code:bash (git clone <url_del_repositorio>)"
+    },
+    {
+      "label": "\u2699\ufe0f Configuraci\u00f3n y Ejecuci\u00f3n del Backend (Django)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "community": 38,
+      "norm_label": "\u2699\ufe0f configuracion y ejecucion del backend (django)"
+    },
+    {
+      "label": "code:bash (cd Backend)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "id": "covagro_sii_readme_codeblock_2",
+      "community": 38,
+      "norm_label": "code:bash (cd backend)"
+    },
+    {
+      "label": "code:bash (python -m venv venv)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "id": "covagro_sii_readme_codeblock_3",
+      "community": 38,
+      "norm_label": "code:bash (python -m venv venv)"
+    },
+    {
+      "label": "code:powershell (venv\\Scripts\\activate)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "id": "covagro_sii_readme_codeblock_4",
+      "community": 38,
+      "norm_label": "code:powershell (venv\\scripts\\activate)"
+    },
+    {
+      "label": "code:bash (source venv/bin/activate)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "covagro_sii_readme_codeblock_5",
+      "community": 38,
+      "norm_label": "code:bash (source venv/bin/activate)"
+    },
+    {
+      "label": "code:bash (pip install -r requirements.txt)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "covagro_sii_readme_codeblock_6",
+      "community": 38,
+      "norm_label": "code:bash (pip install -r requirements.txt)"
+    },
+    {
+      "label": "code:bash (python manage.py migrate)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "id": "covagro_sii_readme_codeblock_7",
+      "community": 38,
+      "norm_label": "code:bash (python manage.py migrate)"
+    },
+    {
+      "label": "code:bash (python manage.py runserver)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "id": "covagro_sii_readme_codeblock_8",
+      "community": 38,
+      "norm_label": "code:bash (python manage.py runserver)"
+    },
+    {
+      "label": "\ud83c\udfa8 Configuraci\u00f3n y Ejecuci\u00f3n del Frontend (React + Vite)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
+      "community": 38,
+      "norm_label": "\ud83c\udfa8 configuracion y ejecucion del frontend (react + vite)"
+    },
+    {
+      "label": "code:bash (cd Fronted)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "id": "covagro_sii_readme_codeblock_9",
+      "community": 38,
+      "norm_label": "code:bash (cd fronted)"
+    },
+    {
+      "label": "code:bash (npm install)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "id": "covagro_sii_readme_codeblock_10",
+      "community": 38,
+      "norm_label": "code:bash (npm install)"
+    },
+    {
+      "label": "code:bash (npm run dev)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "id": "covagro_sii_readme_codeblock_11",
+      "community": 38,
+      "norm_label": "code:bash (npm run dev)"
+    },
+    {
+      "label": "\ud83d\ude80 Automatizaci\u00f3n",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "covagro_sii_readme_automatizaci\u00f3n",
+      "community": 38,
+      "norm_label": "\ud83d\ude80 automatizacion"
+    },
+    {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
@@ -2335,40 +2299,751 @@
       "norm_label": "workflow: graphify"
     },
     {
+      "label": "copilot-instructions.md",
+      "file_type": "document",
+      "source_file": ".github/copilot-instructions.md",
+      "source_location": "L1",
+      "id": "github_copilot_instructions_md",
+      "community": 41,
+      "norm_label": "copilot-instructions.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".github/copilot-instructions.md",
+      "source_location": "L1",
+      "id": "github_copilot_instructions_graphify",
+      "community": 41,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "Frontend/README.md",
+      "source_location": "L1",
+      "id": "frontend_readme_md",
+      "community": 40,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "React + Vite",
+      "file_type": "document",
+      "source_file": "Frontend/README.md",
+      "source_location": "L1",
+      "id": "frontend_readme_react_vite",
+      "community": 40,
+      "norm_label": "react + vite"
+    },
+    {
+      "label": "React Compiler",
+      "file_type": "document",
+      "source_file": "Frontend/README.md",
+      "source_location": "L10",
+      "id": "frontend_readme_react_compiler",
+      "community": 40,
+      "norm_label": "react compiler"
+    },
+    {
+      "label": "Expanding the ESLint configuration",
+      "file_type": "document",
+      "source_file": "Frontend/README.md",
+      "source_location": "L14",
+      "id": "frontend_readme_expanding_the_eslint_configuration",
+      "community": 40,
+      "norm_label": "expanding the eslint configuration"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "Fronted/eslint.config.js",
+      "source_location": "L1",
+      "community": 33,
+      "norm_label": "eslint.config.js",
+      "id": "fronted_eslint_config_js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "package.json",
+      "id": "fronted_package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L2",
+      "community": 4,
+      "norm_label": "name",
+      "id": "fronted_package_name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "private",
+      "id": "fronted_package_private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "version",
+      "id": "fronted_package_version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "type",
+      "id": "fronted_package_type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L6",
+      "community": 4,
+      "norm_label": "scripts",
+      "id": "fronted_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L7",
+      "community": 4,
+      "norm_label": "dev",
+      "id": "fronted_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L8",
+      "community": 4,
+      "norm_label": "build",
+      "id": "fronted_package_scripts_build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L9",
+      "community": 4,
+      "norm_label": "lint",
+      "id": "fronted_package_scripts_lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L10",
+      "community": 4,
+      "norm_label": "preview",
+      "id": "fronted_package_scripts_preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L12",
+      "community": 4,
+      "norm_label": "dependencies",
+      "id": "fronted_package_dependencies"
+    },
+    {
+      "label": "axios",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "axios",
+      "id": "fronted_package_dependencies_axios"
+    },
+    {
+      "label": "bootstrap",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L14",
+      "community": 4,
+      "norm_label": "bootstrap",
+      "id": "fronted_package_dependencies_bootstrap"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L15",
+      "community": 4,
+      "norm_label": "react",
+      "id": "fronted_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L16",
+      "community": 4,
+      "norm_label": "react-dom",
+      "id": "fronted_package_dependencies_react_dom"
+    },
+    {
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L17",
+      "community": 4,
+      "norm_label": "react-router-dom",
+      "id": "fronted_package_dependencies_react_router_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L19",
+      "community": 4,
+      "norm_label": "devdependencies",
+      "id": "fronted_package_devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L20",
+      "community": 4,
+      "norm_label": "@eslint/js",
+      "id": "fronted_package_devdependencies_eslint_js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L21",
+      "community": 4,
+      "norm_label": "@types/react",
+      "id": "fronted_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L22",
+      "community": 4,
+      "norm_label": "@types/react-dom",
+      "id": "fronted_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "@vitejs/plugin-react",
+      "id": "fronted_package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L24",
+      "community": 4,
+      "norm_label": "autoprefixer",
+      "id": "fronted_package_devdependencies_autoprefixer"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L25",
+      "community": 4,
+      "norm_label": "eslint",
+      "id": "fronted_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L26",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "fronted_package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L27",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "fronted_package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L28",
+      "community": 4,
+      "norm_label": "globals",
+      "id": "fronted_package_devdependencies_globals"
+    },
+    {
+      "label": "postcss",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L29",
+      "community": 4,
+      "norm_label": "postcss",
+      "id": "fronted_package_devdependencies_postcss"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L30",
+      "community": 4,
+      "norm_label": "tailwindcss",
+      "id": "fronted_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "Fronted/package.json",
+      "source_location": "L31",
+      "community": 4,
+      "norm_label": "vite",
+      "id": "fronted_package_devdependencies_vite"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "Fronted/vite.config.js",
+      "source_location": "L1",
+      "community": 34,
+      "norm_label": "vite.config.js",
+      "id": "fronted_vite_config_js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "app.jsx",
+      "id": "fronted_src_app_jsx"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/main.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "main.jsx",
+      "id": "fronted_src_main_jsx"
+    },
+    {
+      "label": "Breadcrumbs.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/Breadcrumbs.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "breadcrumbs.jsx",
+      "id": "fronted_src_components_breadcrumbs_jsx"
+    },
+    {
+      "label": "NotificationBell.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "notificationbell.jsx",
+      "id": "fronted_src_components_notificationbell_jsx"
+    },
+    {
+      "label": "ProtectedRoute.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "protectedroute.jsx",
+      "id": "fronted_src_components_protectedroute_jsx"
+    },
+    {
+      "label": "Sidebar.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "sidebar.jsx",
+      "id": "fronted_src_components_sidebar_jsx"
+    },
+    {
+      "label": "Spinner.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/Spinner.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "spinner.jsx",
+      "id": "fronted_src_components_spinner_jsx"
+    },
+    {
+      "label": "StatCard.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/components/StatCard.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "statcard.jsx",
+      "id": "fronted_src_components_statcard_jsx"
+    },
+    {
+      "label": "Catalogo.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "catalogo.jsx",
+      "id": "fronted_src_pages_catalogo_jsx"
+    },
+    {
+      "label": "ConsultarPedidos.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "consultarpedidos.jsx",
+      "id": "fronted_src_pages_consultarpedidos_jsx"
+    },
+    {
+      "label": "EditarPedido.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/EditarPedido.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "editarpedido.jsx",
+      "id": "fronted_src_pages_editarpedido_jsx"
+    },
+    {
+      "label": "Inventario.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/Inventario.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "inventario.jsx",
+      "id": "fronted_src_pages_inventario_jsx"
+    },
+    {
+      "label": "Login.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L1",
+      "community": 39,
+      "norm_label": "login.jsx",
+      "id": "fronted_src_pages_login_jsx"
+    },
+    {
+      "label": "MisPedidos.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "mispedidos.jsx",
+      "id": "fronted_src_pages_mispedidos_jsx"
+    },
+    {
+      "label": "NuevoPedidoCliente.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "nuevopedidocliente.jsx",
+      "id": "fronted_src_pages_nuevopedidocliente_jsx"
+    },
+    {
+      "label": "NuevoPedidoEmp.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "nuevopedidoemp.jsx",
+      "id": "fronted_src_pages_nuevopedidoemp_jsx"
+    },
+    {
+      "label": "Reportes.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "reportes.jsx",
+      "id": "fronted_src_pages_reportes_jsx"
+    },
+    {
+      "label": "api.js",
+      "file_type": "code",
+      "source_file": "Fronted/src/services/api.js",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "api.js",
+      "id": "fronted_src_services_api_js"
+    },
+    {
+      "label": "authContext.jsx",
+      "file_type": "code",
+      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "authcontext.jsx",
+      "id": "fronted_src_services_authcontext_jsx"
+    },
+    {
+      "label": "authService.js",
+      "file_type": "code",
+      "source_file": "Fronted/src/services/authService.js",
+      "source_location": "L1",
+      "community": 39,
+      "norm_label": "authservice.js",
+      "id": "fronted_src_services_authservice_js"
+    },
+    {
+      "label": "implementation_plan.md",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "implementation_plan.md",
+      "id": "implementation_plan_md"
+    },
+    {
+      "label": "Covagro-SII Implementation Plan",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "covagro-sii implementation plan",
+      "id": "covagro_sii_implementation_plan_covagro_sii_implementation_plan"
+    },
+    {
+      "label": "User Review Required",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L5",
+      "community": 5,
+      "norm_label": "user review required",
+      "id": "covagro_sii_implementation_plan_user_review_required"
+    },
+    {
+      "label": "Proposed Changes",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L13",
+      "community": 5,
+      "norm_label": "proposed changes",
+      "id": "covagro_sii_implementation_plan_proposed_changes"
+    },
+    {
+      "label": "Phase 0: Error Identification & Debugging",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L17",
+      "community": 5,
+      "norm_label": "phase 0: error identification & debugging",
+      "id": "covagro_sii_implementation_plan_phase_0_error_identification_debugging"
+    },
+    {
+      "label": "[MODIFY] [settings.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/config/settings.py)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L19",
+      "community": 5,
+      "norm_label": "[modify] [settings.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/config/settings.py)",
+      "id": "covagro_sii_implementation_plan_modify_settings_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_config_settings_py"
+    },
+    {
+      "label": "[MODIFY] Frontend Templates",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L23",
+      "community": 5,
+      "norm_label": "[modify] frontend templates",
+      "id": "covagro_sii_implementation_plan_modify_frontend_templates"
+    },
+    {
+      "label": "Phase 1: Order Management & Notifications",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L29",
+      "community": 5,
+      "norm_label": "phase 1: order management & notifications",
+      "id": "covagro_sii_implementation_plan_phase_1_order_management_notifications"
+    },
+    {
+      "label": "[MODIFY] [models.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/pedidos/models.py)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L31",
+      "community": 5,
+      "norm_label": "[modify] [models.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/pedidos/models.py)",
+      "id": "covagro_sii_implementation_plan_modify_models_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_pedidos_models_py"
+    },
+    {
+      "label": "[MODIFY] [views.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/pedidos/views.py)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L35",
+      "community": 5,
+      "norm_label": "[modify] [views.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/pedidos/views.py)",
+      "id": "covagro_sii_implementation_plan_modify_views_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_pedidos_views_py"
+    },
+    {
+      "label": "[NEW] Notification Component (Frontend)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L39",
+      "community": 5,
+      "norm_label": "[new] notification component (frontend)",
+      "id": "covagro_sii_implementation_plan_new_notification_component_frontend"
+    },
+    {
+      "label": "Phase 2: Report Customization",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L44",
+      "community": 5,
+      "norm_label": "phase 2: report customization",
+      "id": "covagro_sii_implementation_plan_phase_2_report_customization"
+    },
+    {
+      "label": "[MODIFY] [views.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/inventario/views.py) (or relevant report view)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L46",
+      "community": 5,
+      "norm_label": "[modify] [views.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/inventario/views.py) (or relevant report view)",
+      "id": "covagro_sii_implementation_plan_modify_views_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_inventario_views_py_or_relevant_report_view"
+    },
+    {
+      "label": "[MODIFY] Frontend Report Tables",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L55",
+      "community": 5,
+      "norm_label": "[modify] frontend report tables",
+      "id": "covagro_sii_implementation_plan_modify_frontend_report_tables"
+    },
+    {
+      "label": "Phase 3: Admin Interface Improvements",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L61",
+      "community": 5,
+      "norm_label": "phase 3: admin interface improvements",
+      "id": "covagro_sii_implementation_plan_phase_3_admin_interface_improvements"
+    },
+    {
+      "label": "[MODIFY] [urls.py](file:///c:/Users/Usuario/Ing%20Sistemas/8vo%20semestre/Software%20II/Covagro-SII/Backend/config/urls.py)",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L63",
+      "community": 5,
+      "norm_label": "[modify] [urls.py](file:///c:/users/usuario/ing%20sistemas/8vo%20semestre/software%20ii/covagro-sii/backend/config/urls.py)",
+      "id": "covagro_sii_implementation_plan_modify_urls_py_file_c_users_usuario_ing_20sistemas_8vo_20semestre_software_20ii_covagro_sii_backend_config_urls_py"
+    },
+    {
+      "label": "[NEW] Breadcrumbs Component",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L66",
+      "community": 5,
+      "norm_label": "[new] breadcrumbs component",
+      "id": "covagro_sii_implementation_plan_new_breadcrumbs_component"
+    },
+    {
+      "label": "[MODIFY] Performance & UX",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L69",
+      "community": 5,
+      "norm_label": "[modify] performance & ux",
+      "id": "covagro_sii_implementation_plan_modify_performance_ux"
+    },
+    {
+      "label": "Verification Plan",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L75",
+      "community": 5,
+      "norm_label": "verification plan",
+      "id": "covagro_sii_implementation_plan_verification_plan"
+    },
+    {
+      "label": "Automated Tests",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L77",
+      "community": 5,
+      "norm_label": "automated tests",
+      "id": "covagro_sii_implementation_plan_automated_tests"
+    },
+    {
+      "label": "Manual Verification",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L81",
+      "community": 5,
+      "norm_label": "manual verification",
+      "id": "covagro_sii_implementation_plan_manual_verification"
+    },
+    {
+      "label": "Cronograma Sugerido",
+      "file_type": "document",
+      "source_file": "implementation_plan.md",
+      "source_location": "L88",
+      "community": 5,
+      "norm_label": "cronograma sugerido",
+      "id": "covagro_sii_implementation_plan_cronograma_sugerido"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "Fronted/README.md",
       "source_location": "L1",
-      "id": "fronted_readme_md",
       "community": 8,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "fronted_readme_md"
     },
     {
       "label": "React + Vite",
       "file_type": "document",
       "source_file": "Fronted/README.md",
       "source_location": "L1",
-      "id": "fronted_readme_react_vite",
       "community": 8,
-      "norm_label": "react + vite"
+      "norm_label": "react + vite",
+      "id": "fronted_readme_react_vite"
     },
     {
       "label": "React Compiler",
       "file_type": "document",
       "source_file": "Fronted/README.md",
       "source_location": "L10",
-      "id": "fronted_readme_react_compiler",
       "community": 8,
-      "norm_label": "react compiler"
+      "norm_label": "react compiler",
+      "id": "fronted_readme_react_compiler"
     },
     {
       "label": "Expanding the ESLint configuration",
       "file_type": "document",
       "source_file": "Fronted/README.md",
       "source_location": "L14",
-      "id": "fronted_readme_expanding_the_eslint_configuration",
       "community": 8,
-      "norm_label": "expanding the eslint configuration"
+      "norm_label": "expanding the eslint configuration",
+      "id": "fronted_readme_expanding_the_eslint_configuration"
     }
   ],
   "links": [
@@ -2398,9 +3073,9 @@
       "source_file": "Backend/populate_test_data.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_populate_test_data_py",
-      "target": "backend_populate_test_data_populate",
-      "confidence_score": 1.0
+      "target": "backend_populate_test_data_populate"
     },
     {
       "relation": "rationale_for",
@@ -4983,6 +5658,2149 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_bootstrap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_router_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_components_protectedroute_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_login_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_catalogo_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_nuevopedidocliente_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_mispedidos_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_nuevopedidoemp_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_consultarpedidos_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_editarpedido_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_inventario_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "frontend_src_pages_reportes_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_ruta_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_redirectdefault",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/App.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "frontend_src_app_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_app_jsx",
+      "target": "src_app_ruta_default"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_redirectdefault",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_app_jsx",
+      "target": "src_app_redirectdefault"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_app_jsx",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "services_authcontext_authprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Breadcrumbs.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_breadcrumbs_jsx",
+      "target": "components_breadcrumbs_breadcrumbs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "frontend_src_components_breadcrumbs_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_components_breadcrumbs_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_components_breadcrumbs_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Breadcrumbs.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_breadcrumbs_jsx",
+      "target": "components_breadcrumbs_breadcrumbs"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_notificationbell_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_notificationbell_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_notificationbell_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/NotificationBell.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_notificationbell_jsx",
+      "target": "components_notificationbell_notificationbell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "frontend_src_components_notificationbell_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "frontend_src_components_notificationbell_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_components_notificationbell_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_components_notificationbell_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_notificationbell_notificationbell",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_notificationbell_jsx",
+      "target": "components_notificationbell_notificationbell"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/ProtectedRoute.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_protectedroute_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/ProtectedRoute.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_protectedroute_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/ProtectedRoute.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_protectedroute_jsx",
+      "target": "components_protectedroute_protectedroute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_protectedroute_protectedroute",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_protectedroute_jsx",
+      "target": "components_protectedroute_protectedroute"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "components_sidebar_menus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "components_sidebar_avatares",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "components_sidebar_rol_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Sidebar.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "frontend_src_components_sidebar_jsx",
+      "target": "components_sidebar_sidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/EditarPedido.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_editarpedido_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidocliente_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidoemp_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_components_sidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_sidebar_jsx",
+      "target": "components_sidebar_menus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_sidebar_jsx",
+      "target": "components_sidebar_avatares"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_sidebar_jsx",
+      "target": "components_sidebar_rol_label"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "components_sidebar_sidebar",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_sidebar_jsx",
+      "target": "components_sidebar_sidebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/Spinner.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_spinner_jsx",
+      "target": "components_spinner_spinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "frontend_src_components_spinner_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_components_spinner_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_components_spinner_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Spinner.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_spinner_jsx",
+      "target": "components_spinner_spinner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/components/StatCard.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_statcard_jsx",
+      "target": "components_statcard_statcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_components_statcard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_components_statcard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/StatCard.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_statcard_jsx",
+      "target": "components_statcard_statcard"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_emoji_cat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_css_cat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Catalogo.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_catalogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_emoji_cat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_css_cat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Catalogo.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_catalogo_jsx",
+      "target": "pages_catalogo_catalogo"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "pages_consultarpedidos_estado_class",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_pages_consultarpedidos_jsx",
+      "target": "pages_consultarpedidos_consultarpedidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_consultarpedidos_jsx",
+      "target": "pages_consultarpedidos_estado_class"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_consultarpedidos_jsx",
+      "target": "pages_consultarpedidos_consultarpedidos"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/EditarPedido.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_editarpedido_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/EditarPedido.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_pages_editarpedido_jsx",
+      "target": "pages_editarpedido_editarpedido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/EditarPedido.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_editarpedido_jsx",
+      "target": "pages_editarpedido_editarpedido"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Inventario.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_inventario_jsx",
+      "target": "pages_inventario_inventario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Inventario.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_inventario_jsx",
+      "target": "pages_inventario_inventario"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "frontend_src_services_authservice_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "services_authservice_loginservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "pages_login_ruta_por_rol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Login.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_pages_login_jsx",
+      "target": "pages_login_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_login_jsx",
+      "target": "pages_login_ruta_por_rol"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "pages_login_login",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_login_jsx",
+      "target": "pages_login_login"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "pages_mispedidos_estado_class",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/MisPedidos.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_pages_mispedidos_jsx",
+      "target": "pages_mispedidos_mispedidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_mispedidos_jsx",
+      "target": "pages_mispedidos_estado_class"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "pages_mispedidos_mispedidos",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_mispedidos_jsx",
+      "target": "pages_mispedidos_mispedidos"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidocliente_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidocliente_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidocliente_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidocliente_jsx",
+      "target": "pages_nuevopedidocliente_nuevopedidocliente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "pages_nuevopedidocliente_nuevopedidocliente",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_nuevopedidocliente_jsx",
+      "target": "pages_nuevopedidocliente_nuevopedidocliente"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidoemp_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidoemp_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidoemp_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_nuevopedidoemp_jsx",
+      "target": "pages_nuevopedidoemp_nuevopedidoemp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "pages_nuevopedidoemp_nuevopedidoemp",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_nuevopedidoemp_jsx",
+      "target": "pages_nuevopedidoemp_nuevopedidoemp"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "frontend_src_services_authcontext_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "pages_reportes_estado_class",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/pages/Reportes.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_src_pages_reportes_jsx",
+      "target": "pages_reportes_reportes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_reportes_jsx",
+      "target": "pages_reportes_estado_class"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "pages_reportes_reportes",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_reportes_jsx",
+      "target": "pages_reportes_reportes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/api.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_services_api_js",
+      "target": "services_api_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/api.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_services_api_js",
+      "target": "services_api_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authService.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_services_authservice_js",
+      "target": "frontend_src_services_api_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/api.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_api_js",
+      "target": "services_api_api"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/api.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_api_js",
+      "target": "services_api_token"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authContext.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_services_authcontext_jsx",
+      "target": "services_authcontext_authcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authContext.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_services_authcontext_jsx",
+      "target": "services_authcontext_authprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authContext.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "frontend_src_services_authcontext_jsx",
+      "target": "services_authcontext_useauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_authcontext_jsx",
+      "target": "services_authcontext_authcontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_main_jsx",
+      "target": "services_authcontext_authprovider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_authcontext_jsx",
+      "target": "services_authcontext_authprovider"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_app_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/NotificationBell.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_notificationbell_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_protectedroute_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/components/Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_components_sidebar_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_login_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/MisPedidos.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_mispedidos_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_nuevopedidocliente_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_nuevopedidoemp_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Reportes.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_reportes_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/authContext.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_authcontext_jsx",
+      "target": "services_authcontext_useauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authService.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_services_authservice_js",
+      "target": "services_authservice_loginservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/src/services/authService.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "frontend_src_services_authservice_js",
+      "target": "services_authservice_logout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/pages/Login.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_pages_login_jsx",
+      "target": "services_authservice_loginservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/authService.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_authservice_js",
+      "target": "services_authservice_loginservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Fronted/src/services/authService.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fronted_src_services_authservice_js",
+      "target": "services_authservice_logout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "paths-backend.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "paths_backend_md",
+      "target": "covagro_sii_paths_backend_file_tree_backend"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "paths-backend.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "covagro_sii_paths_backend_file_tree_backend",
+      "target": "covagro_sii_paths_backend_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "paths-fronted.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "paths_fronted_md",
+      "target": "covagro_sii_paths_fronted_file_tree_fronted"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "paths-fronted.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "covagro_sii_paths_fronted_file_tree_fronted",
+      "target": "covagro_sii_paths_fronted_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "covagro_sii_readme_covagro_sii",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_covagro_sii",
+      "target": "covagro_sii_readme_requisitos_previos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_covagro_sii",
+      "target": "covagro_sii_readme_descarga_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_covagro_sii",
+      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_covagro_sii",
+      "target": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_covagro_sii",
+      "target": "covagro_sii_readme_automatizaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_descarga_del_proyecto",
+      "target": "covagro_sii_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_backend_django",
+      "target": "covagro_sii_readme_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
+      "target": "covagro_sii_readme_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
+      "target": "covagro_sii_readme_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "covagro_sii_readme_configuraci\u00f3n_y_ejecuci\u00f3n_del_frontend_react_vite",
+      "target": "covagro_sii_readme_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "rules_graphify_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_workflows_graphify_md",
+      "target": "workflows_graphify_workflow_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/copilot-instructions.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "github_copilot_instructions_md",
+      "target": "github_copilot_instructions_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_readme_md",
+      "target": "frontend_readme_react_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_readme_react_vite",
+      "target": "frontend_readme_react_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Frontend/README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_readme_react_vite",
+      "target": "frontend_readme_expanding_the_eslint_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "Fronted/package.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -5272,17 +8090,6 @@
       "target": "fronted_src_services_authcontext_jsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/App.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_app_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5393,36 +8200,6 @@
       "target": "fronted_src_pages_reportes_jsx"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/App.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_app_jsx",
-      "target": "src_app_ruta_default"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/App.jsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_app_jsx",
-      "target": "src_app_redirectdefault"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/App.jsx",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_app_jsx",
-      "target": "src_app_app"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5434,17 +8211,6 @@
       "target": "fronted_src_app_jsx"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/App.jsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "src_app_redirectdefault",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5454,27 +8220,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_main_jsx",
       "target": "fronted_src_services_authcontext_jsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/main.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_main_jsx",
-      "target": "services_authcontext_authprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Breadcrumbs.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_breadcrumbs_jsx",
-      "target": "components_breadcrumbs_breadcrumbs"
     },
     {
       "relation": "imports_from",
@@ -5532,27 +8277,6 @@
       "target": "fronted_src_services_authcontext_jsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/NotificationBell.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_notificationbell_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/NotificationBell.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_notificationbell_jsx",
-      "target": "components_notificationbell_notificationbell"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5597,17 +8321,6 @@
       "target": "fronted_src_components_notificationbell_jsx"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/components/NotificationBell.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_notificationbell_notificationbell",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5619,38 +8332,6 @@
       "target": "fronted_src_services_authcontext_jsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_protectedroute_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_protectedroute_jsx",
-      "target": "components_protectedroute_protectedroute"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/components/ProtectedRoute.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "components_protectedroute_protectedroute",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5660,57 +8341,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_components_sidebar_jsx",
       "target": "fronted_src_services_authcontext_jsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_sidebar_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_sidebar_jsx",
-      "target": "components_sidebar_menus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_sidebar_jsx",
-      "target": "components_sidebar_avatares"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_sidebar_jsx",
-      "target": "components_sidebar_rol_label"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_sidebar_jsx",
-      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "imports_from",
@@ -5801,27 +8431,6 @@
       "target": "fronted_src_components_sidebar_jsx"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/components/Sidebar.jsx",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "components_sidebar_sidebar",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/Spinner.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_spinner_jsx",
-      "target": "components_spinner_spinner"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5853,16 +8462,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_reportes_jsx",
       "target": "fronted_src_components_spinner_jsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/components/StatCard.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_components_statcard_jsx",
-      "target": "components_statcard_statcard"
     },
     {
       "relation": "imports_from",
@@ -5898,36 +8497,6 @@
       "target": "fronted_src_services_api_js"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_emoji_cat"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_css_cat"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Catalogo.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_catalogo_jsx",
-      "target": "pages_catalogo_catalogo"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5937,26 +8506,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_consultarpedidos_jsx",
       "target": "fronted_src_services_api_js"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_consultarpedidos_jsx",
-      "target": "pages_consultarpedidos_estado_class"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/ConsultarPedidos.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_consultarpedidos_jsx",
-      "target": "pages_consultarpedidos_consultarpedidos"
     },
     {
       "relation": "imports_from",
@@ -5970,16 +8519,6 @@
       "target": "fronted_src_services_api_js"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/EditarPedido.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_editarpedido_jsx",
-      "target": "pages_editarpedido_editarpedido"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5989,16 +8528,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_inventario_jsx",
       "target": "fronted_src_services_api_js"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Inventario.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_inventario_jsx",
-      "target": "pages_inventario_inventario"
     },
     {
       "relation": "imports_from",
@@ -6010,17 +8539,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_login_jsx",
       "target": "fronted_src_services_authcontext_jsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Login.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_login_jsx",
-      "target": "services_authcontext_useauth"
     },
     {
       "relation": "imports_from",
@@ -6034,48 +8552,6 @@
       "target": "fronted_src_services_authservice_js"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Login.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_login_jsx",
-      "target": "services_authservice_loginservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Login.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_login_jsx",
-      "target": "pages_login_ruta_por_rol"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Login.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_login_jsx",
-      "target": "pages_login_login"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/pages/Login.jsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "pages_login_login",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -6096,48 +8572,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_mispedidos_jsx",
       "target": "fronted_src_services_authcontext_jsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_mispedidos_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_mispedidos_jsx",
-      "target": "pages_mispedidos_estado_class"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_mispedidos_jsx",
-      "target": "pages_mispedidos_mispedidos"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/pages/MisPedidos.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "pages_mispedidos_mispedidos",
-      "target": "services_authcontext_useauth"
     },
     {
       "relation": "imports_from",
@@ -6162,38 +8596,6 @@
       "target": "fronted_src_services_authcontext_jsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_nuevopedidocliente_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_nuevopedidocliente_jsx",
-      "target": "pages_nuevopedidocliente_nuevopedidocliente"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/pages/NuevoPedidoCliente.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "pages_nuevopedidocliente_nuevopedidocliente",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -6216,38 +8618,6 @@
       "target": "fronted_src_services_authcontext_jsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_nuevopedidoemp_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_nuevopedidoemp_jsx",
-      "target": "pages_nuevopedidoemp_nuevopedidoemp"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/pages/NuevoPedidoEmp.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "pages_nuevopedidoemp_nuevopedidoemp",
-      "target": "services_authcontext_useauth"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -6268,68 +8638,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_pages_reportes_jsx",
       "target": "fronted_src_services_authcontext_jsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_reportes_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_reportes_jsx",
-      "target": "pages_reportes_estado_class"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/pages/Reportes.jsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_pages_reportes_jsx",
-      "target": "pages_reportes_reportes"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "Fronted/src/pages/Reportes.jsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "pages_reportes_reportes",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/api.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_api_js",
-      "target": "services_api_api"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/api.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_api_js",
-      "target": "services_api_token"
     },
     {
       "relation": "imports_from",
@@ -6341,56 +8649,6 @@
       "confidence_score": 1.0,
       "source": "fronted_src_services_authservice_js",
       "target": "fronted_src_services_api_js"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/authContext.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_authcontext_jsx",
-      "target": "services_authcontext_authcontext"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/authContext.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_authcontext_jsx",
-      "target": "services_authcontext_authprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/authContext.jsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_authcontext_jsx",
-      "target": "services_authcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/authService.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_authservice_js",
-      "target": "services_authservice_loginservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Fronted/src/services/authService.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "fronted_src_services_authservice_js",
-      "target": "services_authservice_logout"
     },
     {
       "relation": "contains",
@@ -6605,66 +8863,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "paths-backend.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "paths_backend_md",
-      "target": "covagro_sii_paths_backend_file_tree_backend"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "paths-backend.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "covagro_sii_paths_backend_file_tree_backend",
-      "target": "covagro_sii_paths_backend_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "paths-fronted.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "paths_fronted_md",
-      "target": "covagro_sii_paths_fronted_file_tree_fronted"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "paths-fronted.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "covagro_sii_paths_fronted_file_tree_fronted",
-      "target": "covagro_sii_paths_fronted_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_rules_graphify_md",
-      "target": "rules_graphify_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/workflows/graphify.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_workflows_graphify_md",
-      "target": "workflows_graphify_workflow_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "Fronted/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -6694,5 +8892,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fadd3dec7a844435474c1adca8f64e2519713688"
+  "built_at_commit": "edb587cc3f3ea0b8202612da402702dfd613ca6f"
 }

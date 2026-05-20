@@ -1,16 +1,16 @@
-# Graph Report - Covagro-SII  (2026-05-19)
+# Graph Report - Covagro-SII  (2026-05-20)
 
 ## Corpus Check
-- 79 files · ~125,827 words
+- 80 files · ~125,724 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 263 nodes · 422 edges · 37 communities (25 shown, 12 thin omitted)
-- Extraction: 68% EXTRACTED · 32% INFERRED · 0% AMBIGUOUS · INFERRED: 134 edges (avg confidence: 0.5)
+- 338 nodes · 568 edges · 44 communities (31 shown, 13 thin omitted)
+- Extraction: 76% EXTRACTED · 24% INFERRED · 0% AMBIGUOUS · INFERRED: 134 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fadd3dec`
+- Built from commit: `edb587cc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,9 +36,14 @@
 - [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `useAuth()` - 19 edges
+1. `useAuth()` - 29 edges
 2. `Producto` - 18 edges
 3. `PedidoViewSet` - 16 edges
 4. `Usuario` - 16 edges
@@ -50,30 +55,30 @@
 10. `DetallePedidoViewSet` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `MovimientoInventario` --uses--> `Producto`  [INFERRED]
+  Backend/inventario/models.py → Backend/productos/models.py
 - `Meta` --uses--> `MovimientoInventario`  [INFERRED]
   Backend/inventario/serializers.py → Backend/inventario/models.py
-- `MovimientoInventarioSerializer` --uses--> `MovimientoInventario`  [INFERRED]
-  Backend/inventario/serializers.py → Backend/inventario/models.py
-- `MovimientoInventarioViewSet` --uses--> `MovimientoInventario`  [INFERRED]
-  Backend/inventario/views.py → Backend/inventario/models.py
-- `MovimientoInventarioViewSet` --uses--> `EsEmpleadoOAdmin`  [INFERRED]
-  Backend/inventario/views.py → Backend/usuarios/permissions.py
-- `EstadoPedido` --uses--> `Usuario`  [INFERRED]
-  Backend/pedidos/models.py → Backend/usuarios/models.py
+- `EstadoPedidoViewSet` --uses--> `MovimientoInventario`  [INFERRED]
+  Backend/pedidos/views.py → Backend/inventario/models.py
+- `NotificacionViewSet` --uses--> `MovimientoInventario`  [INFERRED]
+  Backend/pedidos/views.py → Backend/inventario/models.py
+- `PedidoViewSet` --uses--> `MovimientoInventario`  [INFERRED]
+  Backend/pedidos/views.py → Backend/inventario/models.py
 
-## Communities (37 total, 12 thin omitted)
+## Communities (44 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.07
-Nodes (25): NotificationBell(), ProtectedRoute(), AVATARES, MENUS, ROL_LABEL, Sidebar(), CSS_CAT, EMOJI_CAT (+17 more)
+Cohesion: 0.08
+Nodes (30): Breadcrumbs(), NotificationBell(), ProtectedRoute(), AVATARES, MENUS, ROL_LABEL, Sidebar(), Spinner() (+22 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.09
 Nodes (14): AbstractBaseUser, BaseUserManager, PermissionsMixin, Rol, Usuario, UsuarioManager, EsAdmin, EsCliente (+6 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.18
-Nodes (19): MovimientoInventario, DetallePedido, EstadoPedido, HistorialEstado, Meta, Notificacion, Pedido, DetallePedidoSerializer (+11 more)
+Cohesion: 0.19
+Nodes (18): DetallePedido, EstadoPedido, HistorialEstado, Meta, Notificacion, Pedido, DetallePedidoSerializer, EstadoPedidoSerializer (+10 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.21
@@ -96,23 +101,39 @@ Cohesion: 0.50
 Nodes (3): Expanding the ESLint configuration, React Compiler, React + Vite
 
 ### Community 35 - "Community 35"
-Cohesion: 0.28
-Nodes (3): Meta, MovimientoInventarioSerializer, MovimientoInventarioViewSet
+Cohesion: 0.27
+Nodes (4): MovimientoInventario, Meta, MovimientoInventarioSerializer, MovimientoInventarioViewSet
+
+### Community 37 - "Community 37"
+Cohesion: 0.07
+Nodes (28): dependencies, axios, bootstrap, react, react-dom, react-router-dom, devDependencies, autoprefixer (+20 more)
+
+### Community 38 - "Community 38"
+Cohesion: 0.11
+Nodes (17): 🚀 Automatización, code:bash (git clone <URL_DEL_REPOSITORIO>), code:bash (npm install), code:bash (npm run dev), code:bash (cd Backend), code:bash (python -m venv venv), code:powershell (venv\Scripts\activate), code:bash (source venv/bin/activate) (+9 more)
+
+### Community 39 - "Community 39"
+Cohesion: 0.43
+Nodes (4): Login(), RUTA_POR_ROL, loginService(), logout()
+
+### Community 40 - "Community 40"
+Cohesion: 0.50
+Nodes (3): Expanding the ESLint configuration, React Compiler, React + Vite
 
 ## Knowledge Gaps
-- **60 isolated node(s):** `Migration`, `Migration`, `name`, `private`, `version` (+55 more)
+- **88 isolated node(s):** `Migration`, `Migration`, `name`, `private`, `version` (+83 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Usuario` connect `Community 1` to `Community 2`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `Producto` connect `Community 2` to `Community 3`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+- **Why does `Producto` connect `Community 2` to `Community 35`, `Community 3`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `EsEmpleadoOAdmin` connect `Community 3` to `Community 1`, `Community 2`, `Community 35`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **Are the 16 inferred relationships involving `Producto` (e.g. with `MovimientoInventario` and `EstadoPedido`) actually correct?**
   _`Producto` has 16 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 13 inferred relationships involving `PedidoViewSet` (e.g. with `EstadoPedido` and `Pedido`) actually correct?**

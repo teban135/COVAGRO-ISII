@@ -15,7 +15,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\config\\urls.py": {
-    "mtime": 1779207484.832153,
+    "mtime": 1779209528.0528848,
     "ast_hash": "281a8d28581af1b0f40a350e4afd61f3",
     "semantic_hash": ""
   },
@@ -90,12 +90,12 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\pedidos\\models.py": {
-    "mtime": 1778002236.344643,
+    "mtime": 1779209528.0563495,
     "ast_hash": "1ba47899141ab4469e24a509d44ed667",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\pedidos\\serializers.py": {
-    "mtime": 1778002236.344643,
+    "mtime": 1779209528.0563495,
     "ast_hash": "1667a6b8c98b02db6f4fbfe6209285db",
     "semantic_hash": ""
   },
@@ -105,12 +105,12 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\pedidos\\urls.py": {
-    "mtime": 1778002236.344643,
+    "mtime": 1779209528.0563495,
     "ast_hash": "e3fef7e13941fca04830d7cf54bd798d",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\pedidos\\views.py": {
-    "mtime": 1779207484.833941,
+    "mtime": 1779209528.0563495,
     "ast_hash": "3b5efc012064bfd44c9b8e405b62ac0d",
     "semantic_hash": ""
   },
@@ -130,7 +130,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\pedidos\\migrations\\0003_historialestado_notificacion.py": {
-    "mtime": 1778002236.344123,
+    "mtime": 1779209528.0553143,
     "ast_hash": "3fd09a885c7643044b6464e2f8eb1b02",
     "semantic_hash": ""
   },
@@ -244,159 +244,29 @@
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\eslint.config.js": {
-    "mtime": 1776347313.49157,
-    "ast_hash": "49c8473bcfcec3aef596a5fb04a6df06",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\package.json": {
-    "mtime": 1776347901.913563,
-    "ast_hash": "8b76911240da00a6dbe313bc87598ac6",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\vite.config.js": {
-    "mtime": 1776347313.5043483,
-    "ast_hash": "88439104b3c207f17d33ef3160e3b080",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\App.jsx": {
-    "mtime": 1776439559.3333597,
-    "ast_hash": "c83f35ac6702c11a8250a54adc414fdd",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\main.jsx": {
-    "mtime": 1776350591.1597102,
-    "ast_hash": "4ecd267f36763d84270c69975323c56a",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\Breadcrumbs.jsx": {
-    "mtime": 1779207484.8344672,
-    "ast_hash": "ce062cdcf5121f5aac42ce7999f56e00",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\NotificationBell.jsx": {
-    "mtime": 1778002236.344643,
-    "ast_hash": "7dcdbcf0cecb34cbce8a6a3ff6e20835",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\ProtectedRoute.jsx": {
-    "mtime": 1776350217.3694823,
-    "ast_hash": "d52360f737635531373fbcda82c4f008",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\Sidebar.jsx": {
-    "mtime": 1778002236.3467543,
-    "ast_hash": "9eefc4019f56adebbd77064260604d6d",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\Spinner.jsx": {
-    "mtime": 1779207484.835001,
-    "ast_hash": "68b22027876a2d67870e89219207b9f7",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\components\\StatCard.jsx": {
-    "mtime": 1776351287.1719787,
-    "ast_hash": "75cbde71b5ce42c5323ac0db4a054608",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\Catalogo.jsx": {
-    "mtime": 1778002236.3467543,
-    "ast_hash": "1a2070f6d1097384c968a6f462b107a2",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\ConsultarPedidos.jsx": {
-    "mtime": 1779207484.8355389,
-    "ast_hash": "d56ae7188d229ddf20f173cd4031af94",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\EditarPedido.jsx": {
-    "mtime": 1776351411.4801264,
-    "ast_hash": "5713d80ebe36fffd0609cbea9524c4da",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\Inventario.jsx": {
-    "mtime": 1779207484.836296,
-    "ast_hash": "6f8bac54a0d57cd85916281cf9363585",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\Login.jsx": {
-    "mtime": 1776350312.8791716,
-    "ast_hash": "52467b93c622bc23209e4be4a201777e",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\MisPedidos.jsx": {
-    "mtime": 1776351381.8009257,
-    "ast_hash": "0affc29b010cca880fcf0e24b456973c",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\NuevoPedidoCliente.jsx": {
-    "mtime": 1778002236.3494644,
-    "ast_hash": "9999dc56a8f0b8e829cc2ca5214cc79e",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\NuevoPedidoEmp.jsx": {
-    "mtime": 1776350463.9205277,
-    "ast_hash": "98749b5882249614cf87d2954106810a",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\pages\\Reportes.jsx": {
-    "mtime": 1779207484.8368301,
-    "ast_hash": "2b06e50a4525c7cb2f8d59f1c48015a5",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\services\\api.js": {
-    "mtime": 1776350091.563905,
-    "ast_hash": "37c45637ef4bcefdb21dfe4904569c5d",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\services\\authContext.jsx": {
-    "mtime": 1776350184.6302888,
-    "ast_hash": "4ca559ee91bf96d00dabca5b8c15ea09",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\services\\authService.js": {
-    "mtime": 1776468628.877438,
-    "ast_hash": "b85a6671584843fbd851bd2f00ccefdf",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\implementation_plan.md": {
-    "mtime": 1778857652.9593656,
-    "ast_hash": "28f43746294536def72e86d1482467d7",
-    "semantic_hash": ""
-  },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\paths-backend.md": {
-    "mtime": 1776350802.308889,
-    "ast_hash": "1e6f5f07d9e175030a260da9e18e668a",
+    "mtime": 1779209528.1029913,
+    "ast_hash": "eec7779910fe2bb0ff66eeacb7bebbe9",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\paths-fronted.md": {
-    "mtime": 1776350705.7053196,
-    "ast_hash": "1fb82a3bb6c1458cfbfbf77801d447f2",
+    "mtime": 1779209528.1046965,
+    "ast_hash": "cb47b8c7f8eea750320b167477fa01e0",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\.agents\\rules\\graphify.md": {
-    "mtime": 1779207160.3151076,
+    "mtime": 1779209528.0479555,
     "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\.agents\\workflows\\graphify.md": {
-    "mtime": 1779207160.316185,
+    "mtime": 1779209528.0479555,
     "ast_hash": "84de69efd46ab0b8430393bd4188f8f2",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\requirements.txt": {
-    "mtime": 1776307798.0001671,
+    "mtime": 1779208959.6174173,
     "ast_hash": "bdf4211ac5bcd4d1bbb20350db6a5f54",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\index.html": {
-    "mtime": 1776347337.4976103,
-    "ast_hash": "3350aee19e85eac878165f495a46c244",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\README.md": {
-    "mtime": 1776347313.553454,
-    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
     "semantic_hash": ""
   },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\media\\productos\\4d.png": {
@@ -474,34 +344,169 @@
     "ast_hash": "6bbf1b317332a55c1215e48988bd7e78",
     "semantic_hash": ""
   },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\public\\favicon.svg": {
-    "mtime": 1776347313.6199086,
-    "ast_hash": "7e840862161341271697daa99a40d76b",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\public\\icons.svg": {
-    "mtime": 1776347313.6370754,
-    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\assets\\hero.png": {
-    "mtime": 1776347313.5821817,
-    "ast_hash": "5cf2b0762834cdddc0dd3ec1397b5011",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\assets\\react.svg": {
-    "mtime": 1776347313.6562917,
-    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Fronted\\src\\assets\\vite.svg": {
-    "mtime": 1776347313.6719968,
-    "ast_hash": "9960a24288958394ac50e57ff638b036",
-    "semantic_hash": ""
-  },
   "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Backend\\populate_test_data.py": {
     "mtime": 1779208016.2568781,
     "ast_hash": "18edea4bfa5ea561fb54aaa7eeb33157",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\eslint.config.js": {
+    "mtime": 1779210654.5333114,
+    "ast_hash": "c15fd0f45c689a8b77c8ff6fe6fada9b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\package.json": {
+    "mtime": 1779210654.5353465,
+    "ast_hash": "285cf6a8925b616dc728f378a988fbb9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\vite.config.js": {
+    "mtime": 1779210654.5489376,
+    "ast_hash": "199e1221ae03d6974fdc8b5e23787b98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\App.jsx": {
+    "mtime": 1779210654.536377,
+    "ast_hash": "15346cf706bdbf9a94eb5782403c4285",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\main.jsx": {
+    "mtime": 1779210654.5425515,
+    "ast_hash": "f80f187163ebe300d9fc9d8f6d081896",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\Breadcrumbs.jsx": {
+    "mtime": 1779210654.539493,
+    "ast_hash": "ce062cdcf5121f5aac42ce7999f56e00",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\NotificationBell.jsx": {
+    "mtime": 1779210654.539493,
+    "ast_hash": "7dcdbcf0cecb34cbce8a6a3ff6e20835",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\ProtectedRoute.jsx": {
+    "mtime": 1779210654.539493,
+    "ast_hash": "d52360f737635531373fbcda82c4f008",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\Sidebar.jsx": {
+    "mtime": 1779210654.5410218,
+    "ast_hash": "9eefc4019f56adebbd77064260604d6d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\Spinner.jsx": {
+    "mtime": 1779210654.5410218,
+    "ast_hash": "68b22027876a2d67870e89219207b9f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\components\\StatCard.jsx": {
+    "mtime": 1779210654.5410218,
+    "ast_hash": "75cbde71b5ce42c5323ac0db4a054608",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\Catalogo.jsx": {
+    "mtime": 1779210654.5425515,
+    "ast_hash": "1a2070f6d1097384c968a6f462b107a2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\ConsultarPedidos.jsx": {
+    "mtime": 1779210654.5425515,
+    "ast_hash": "d56ae7188d229ddf20f173cd4031af94",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\EditarPedido.jsx": {
+    "mtime": 1779210654.5425515,
+    "ast_hash": "5713d80ebe36fffd0609cbea9524c4da",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\Inventario.jsx": {
+    "mtime": 1779210654.5449219,
+    "ast_hash": "6f8bac54a0d57cd85916281cf9363585",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\Login.jsx": {
+    "mtime": 1779210654.5454986,
+    "ast_hash": "52467b93c622bc23209e4be4a201777e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\MisPedidos.jsx": {
+    "mtime": 1779210654.5460157,
+    "ast_hash": "27f555e457de76cd6f69b84f41e022b6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\NuevoPedidoCliente.jsx": {
+    "mtime": 1779210654.5465436,
+    "ast_hash": "9999dc56a8f0b8e829cc2ca5214cc79e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\NuevoPedidoEmp.jsx": {
+    "mtime": 1779210654.546914,
+    "ast_hash": "98749b5882249614cf87d2954106810a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\pages\\Reportes.jsx": {
+    "mtime": 1779210654.546914,
+    "ast_hash": "2b06e50a4525c7cb2f8d59f1c48015a5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\services\\api.js": {
+    "mtime": 1779210654.5479233,
+    "ast_hash": "37c45637ef4bcefdb21dfe4904569c5d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\services\\authContext.jsx": {
+    "mtime": 1779210654.5479233,
+    "ast_hash": "4ca559ee91bf96d00dabca5b8c15ea09",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\services\\authService.js": {
+    "mtime": 1779210654.5479233,
+    "ast_hash": "b85a6671584843fbd851bd2f00ccefdf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\README.md": {
+    "mtime": 1779209528.06338,
+    "ast_hash": "23d78a9f3fc90ae94669b65f3bc7700e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\.github\\copilot-instructions.md": {
+    "mtime": 1779303596.9170766,
+    "ast_hash": "2b23503628bf2ec71d067a85ca8948ab",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\index.html": {
+    "mtime": 1779210654.5333114,
+    "ast_hash": "a21600d73b5fd5e7d434fb8af344e3dd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\README.md": {
+    "mtime": 1779210654.5333114,
+    "ast_hash": "abfa161e3e5434e3e85394bf03d387a4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\public\\favicon.svg": {
+    "mtime": 1779210654.536377,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\public\\icons.svg": {
+    "mtime": 1779210654.536377,
+    "ast_hash": "21c7473c592c67dc87223d49892c8f0a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\assets\\hero.png": {
+    "mtime": 1779210654.536377,
+    "ast_hash": "5cf2b0762834cdddc0dd3ec1397b5011",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\assets\\react.svg": {
+    "mtime": 1779210654.536377,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Usuario\\Ing Sistemas\\8vo semestre\\Software II\\Covagro-SII\\Frontend\\src\\assets\\vite.svg": {
+    "mtime": 1779210654.539493,
+    "ast_hash": "6d5180a782d64c8cf51ba01c2a2184d8",
     "semantic_hash": ""
   }
 }

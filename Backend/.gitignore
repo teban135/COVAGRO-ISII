@@ -13,7 +13,6 @@ env/
 populate_test_data.py
 
 # Media and static
-media/
 staticfiles/
 
 # Private keys (if any)
