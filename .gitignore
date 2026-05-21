@@ -260,5 +260,6 @@ graphify-out/
 .claude/
 CLAUDE.md
 .agents/
+README_EXPORT_IMPORT.md
 
 # End of .gitignore
