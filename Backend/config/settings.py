@@ -68,6 +68,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",  # Puerto de Vite/React (IP loopback)
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://covagro-isii.pages.dev",
 ]
 
 REST_FRAMEWORK = {
