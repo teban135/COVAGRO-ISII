@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'covagroback.vercel.app',
+    '*.vercel.app',
     os.getenv('ALLOWED_HOST', 'localhost'),
 ]
 
