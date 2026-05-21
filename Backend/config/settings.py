@@ -31,7 +31,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'covagroback-6ym84v45n-teban135s-projects.vercel.app',
+    'covagroback.vercel.app',
     os.getenv('ALLOWED_HOST', 'localhost'),
 ]
 
