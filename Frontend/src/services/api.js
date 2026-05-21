@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://covagroback.vercel.app/api/'
+    baseURL: 'https://covagroback.vercel.app/api'
 })
 
 // Adjunta el token JWT en cada petición automáticamente
