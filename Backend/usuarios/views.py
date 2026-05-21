@@ -1,7 +1,12 @@
 from rest_framework import viewsets, permissions
+from rest_framework_simplejwt.views import TokenObtainPairView
 from .models import Rol, Usuario
-from .serializers import RolSerializer, UsuarioSerializer
+from .serializers import RolSerializer, UsuarioSerializer, CustomTokenObtainPairSerializer
 from .permissions import EsAdmin
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    """Vista personalizada que usa el serializer que acepta email"""
+    serializer_class = CustomTokenObtainPairSerializer
 
 class RolViewSet(viewsets.ModelViewSet):
     queryset = Rol.objects.all()

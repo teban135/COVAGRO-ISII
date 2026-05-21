@@ -1,12 +1,13 @@
 from django.http import JsonResponse
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from rest_framework_simplejwt.views import TokenRefreshView
+from usuarios.views import CustomTokenObtainPairView
 from django.conf import settings
 from django.conf.urls.static import static
 
 api_patterns = [
-    path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('usuarios/', include('usuarios.urls')),
     path('productos/', include('productos.urls')),
