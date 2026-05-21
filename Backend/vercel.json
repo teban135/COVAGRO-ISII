@@ -1,19 +1,21 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "config/wsgi.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "15mb",
-        "runtime": "python3.11"
-      }
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "framework": "django",
+  "functions": {
+    "config/wsgi.py": {
+      "memory": 1024,
+      "maxDuration": 60
     }
-  ],
+  },
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "/static/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
     },
     {
       "src": "/media/(.*)",
@@ -25,7 +27,6 @@
     }
   ],
   "env": {
-    "PYTHONUNBUFFERED": "1",
-    "DEBUG": "False"
+    "PYTHONUNBUFFERED": "1"
   }
 }
