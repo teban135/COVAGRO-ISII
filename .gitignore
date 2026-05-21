@@ -263,3 +263,9 @@ CLAUDE.md
 README_EXPORT_IMPORT.md
 
 # End of .gitignore
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
