@@ -1,0 +1,2988 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "g0kfs4b1h7qtcqg87lnm0ktk2sw7wo8u",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-ZjElPWew1rs2DiBHipMKcXdkKQW0b2beW0Tctxr3ntc4s7gILU6_W0J65jYAP7DdF0lL29Y5yaHIg3Z5Wzi_rof7d1Cx11HDRMX4s3GgQkEIJedUfLbBBV3Ig2GttaXikRgVA4QpMTj0wEpZKz5f8Js4EA:1wKI9G:DX1LW8FiSgoEsJ6bg03zAOkIlibn43xSVxvCPB-R4K0",
+        "expire_date": "2026-05-19T15:57:26.453Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "j85485vuluvnl480oa7zrs8eq86c5ufy",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAQAP-yNbKy8bE4JX3eYK0vHEC2FCcV4u8oUgpoZ0bzBsf7Vtze0-qWCBOMcPllnsMz1UPEB9d7E6HVbV28OBJx2i7mFtPrdrZ_g8K9wARMnpIORCSzVRiNylKRJ2tNviapY1aIksmwMhoJ_RA1mzx6HiQmRPh8AdTVN0g:1wDn6P:RS0nbu-AClXsqpz2tez3KUvsqaHUU8yFNkl-dmBercg",
+        "expire_date": "2026-05-01T17:35:37.665Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zs6j9mjm0zsrrzuxr83qi5sicc490ltv",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-ZjElPWew1rs2DiBHipMKcXdkKQW0b2beW0Tctxr3ntc4s7gILU6_W0J65jYAP7DdF0lL29Y5yaHIg3Z5Wzi_rof7d1Cx11HDRMX4s3GgQkEIJedUfLbBBV3Ig2GttaXikRgVA4QpMTj0wEpZKz5f8Js4EA:1wPpGu:wyOf3Ph_BMFh3thYT1_jF9vrJQlt93F_uLhdIbXz2yc",
+        "expire_date": "2026-06-03T22:20:12.434Z"
+    }
+},
+{
+    "model": "usuarios.rol",
+    "pk": 1,
+    "fields": {
+        "nombre": "ADMIN"
+    }
+},
+{
+    "model": "usuarios.rol",
+    "pk": 2,
+    "fields": {
+        "nombre": "EMPLEADO"
+    }
+},
+{
+    "model": "usuarios.rol",
+    "pk": 3,
+    "fields": {
+        "nombre": "CLIENTE"
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$jN2nH2AIASYPLF27aEkkql$vx+VhhxrjAXkthPW0C7ABfPJHSZw+CMJIGQDmeWwcpc=",
+        "last_login": "2026-05-20T22:20:12.430Z",
+        "is_superuser": true,
+        "id_rol": 1,
+        "nombre": "Administrador",
+        "telefono": "",
+        "email": "admin@covagro.com",
+        "is_active": true,
+        "is_staff": true,
+        "canal": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$Bw45hcuNye201B3mWCBeWt$Coz2pZhRbkLoYsJCXS2A1ca7ysevpRtUGrZMoWLi76U=",
+        "last_login": "2026-04-17T17:35:37Z",
+        "is_superuser": true,
+        "id_rol": 1,
+        "nombre": "admin",
+        "telefono": "",
+        "email": "admin@gmail.com",
+        "is_active": true,
+        "is_staff": true,
+        "canal": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$FRgq1MyvqIaJxNZGyweiPJ$0767hgMRoRqRcq/Q7MXOqTwdMW8Aa36KsqZoHpUplSQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 2,
+        "nombre": "juan soto",
+        "telefono": "",
+        "email": "emp@covagro.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$PpblqtjAg5OD4SwxXA6Aeo$1U9bzHyjMSVkPPaHiQpTZRwH665d2DFMu7r6yfzsgt0=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "maria perez",
+        "telefono": "",
+        "email": "maria@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$NY8VrIWIbSPJJCjrZnkRkj$Prc+529FUyQeX/PdMtHAU8y1ZVprVScFqnla+AzT5N8=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "Juan Carlos G¾mez",
+        "telefono": "3115551234",
+        "email": "juan.gomez@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$cnnxzTWNeE8U6KB00h20hA$swpxlVqXPUhd6nAG6hJbFJHcoKtn6CvJex+8vpsRBqY=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "Diana Marcela Ortiz",
+        "telefono": "3125555678",
+        "email": "diana.ortiz@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$1UReAiwl5xPgDlU2nhjj8S$RPbSLJfDXqz0qOfM4hmDjI7dNTooGjgHbC1EqyikoOI=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "AndrÚs Felipe Ruiz",
+        "telefono": "3135559012",
+        "email": "andres.ruiz@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$LB68uLfoSY2h7lBRsaAQ1W$RJRtvdanq88qD6k7NebJNzlkqt3nyVBWk3idLBrn7aY=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "Laura SofÝa Castro",
+        "telefono": "3145553456",
+        "email": "laura.castro@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "usuarios.usuario",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$c6qgPHXNueUsP9DVyCjuAR$UxMijDMd1K7FE/NKQF2gMDNX5n1vjsZvvKvR33l14mk=",
+        "last_login": null,
+        "is_superuser": false,
+        "id_rol": 3,
+        "nombre": "Carlos Arturo Pineda",
+        "telefono": "3155557890",
+        "email": "carlos.pineda@gmail.com",
+        "is_active": true,
+        "is_staff": false,
+        "canal": "web",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "productos.categoria",
+    "pk": 1,
+    "fields": {
+        "nombre": "FERTILIZANTE"
+    }
+},
+{
+    "model": "productos.categoria",
+    "pk": 2,
+    "fields": {
+        "nombre": "HERBICIDA"
+    }
+},
+{
+    "model": "productos.categoria",
+    "pk": 3,
+    "fields": {
+        "nombre": "VENENO"
+    }
+},
+{
+    "model": "productos.categoria",
+    "pk": 4,
+    "fields": {
+        "nombre": "PRODUCTO-PECUARIO"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 1,
+    "fields": {
+        "id_categoria": 1,
+        "nombre": "Urea 46%",
+        "descripcion": "Fertilizante nitrogenado de alta concentraci¾n",
+        "precio": "95000.00",
+        "stock_actual": 238,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/urea46.avif"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 2,
+    "fields": {
+        "id_categoria": 1,
+        "nombre": "Triple 15",
+        "descripcion": "Fertilizante balanceado NPK 15-15-15",
+        "precio": "86999.99",
+        "stock_actual": 291,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/Triple15.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 3,
+    "fields": {
+        "id_categoria": 1,
+        "nombre": "DAP Fosfato Diam¾nico",
+        "descripcion": "Fuente de f¾sforo y nitr¾geno",
+        "precio": "120000.00",
+        "stock_actual": 249,
+        "stock_minimo": 20,
+        "estado": true,
+        "imagen": "productos/DAP.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 4,
+    "fields": {
+        "id_categoria": 1,
+        "nombre": "Cloruro de Potasio",
+        "descripcion": "Fertilizante rico en potasio",
+        "precio": "80000.00",
+        "stock_actual": 138,
+        "stock_minimo": 5,
+        "estado": true,
+        "imagen": "productos/CloruroPotasio.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 5,
+    "fields": {
+        "id_categoria": 1,
+        "nombre": "Cal Agricola",
+        "descripcion": "Corrector de acidez del suelo",
+        "precio": "45000.00",
+        "stock_actual": 347,
+        "stock_minimo": 20,
+        "estado": true,
+        "imagen": "productos/Cal.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 6,
+    "fields": {
+        "id_categoria": 2,
+        "nombre": "Glifosato",
+        "descripcion": "Herbicida sistÚmico no selectivo",
+        "precio": "35000.00",
+        "stock_actual": 113,
+        "stock_minimo": 5,
+        "estado": true,
+        "imagen": "productos/Glifosato.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 7,
+    "fields": {
+        "id_categoria": 2,
+        "nombre": "Paraquat",
+        "descripcion": "Herbicida de contacto de accion rapida",
+        "precio": "42000.00",
+        "stock_actual": 150,
+        "stock_minimo": 5,
+        "estado": true,
+        "imagen": "productos/Paraquat.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 8,
+    "fields": {
+        "id_categoria": 2,
+        "nombre": "2,4-D Amina",
+        "descripcion": "Control de malezas de hoja ancha",
+        "precio": "30000.00",
+        "stock_actual": 90,
+        "stock_minimo": 4,
+        "estado": true,
+        "imagen": "productos/4d.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 9,
+    "fields": {
+        "id_categoria": 2,
+        "nombre": "Atrazina",
+        "descripcion": "Herbicida preemergente para cultivos",
+        "precio": "38000.00",
+        "stock_actual": 144,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/Atrazina.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 10,
+    "fields": {
+        "id_categoria": 3,
+        "nombre": "Clorpirifos",
+        "descripcion": "Clorpirifos",
+        "precio": "60000.00",
+        "stock_actual": 199,
+        "stock_minimo": 3,
+        "estado": true,
+        "imagen": "productos/clorpirifos.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 11,
+    "fields": {
+        "id_categoria": 3,
+        "nombre": "Imidacloprid",
+        "descripcion": "Insecticida sistÚmico para plagas",
+        "precio": "55000.00",
+        "stock_actual": 189,
+        "stock_minimo": 5,
+        "estado": true,
+        "imagen": "productos/imidacloprid.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 12,
+    "fields": {
+        "id_categoria": 3,
+        "nombre": "Fipronil",
+        "descripcion": "Control de insectos del suelo",
+        "precio": "70000.00",
+        "stock_actual": 194,
+        "stock_minimo": 3,
+        "estado": true,
+        "imagen": "productos/friponil.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 13,
+    "fields": {
+        "id_categoria": 3,
+        "nombre": "Abamectina",
+        "descripcion": "Acaricida e insecticida",
+        "precio": "65000.00",
+        "stock_actual": 112,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/ABAMECTINA.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 14,
+    "fields": {
+        "id_categoria": 4,
+        "nombre": "Concentrado Bovino 40kg",
+        "descripcion": "Alimento balanceado para ganado",
+        "precio": "85000.00",
+        "stock_actual": 193,
+        "stock_minimo": 20,
+        "estado": true,
+        "imagen": "productos/concentrado-bovino.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 15,
+    "fields": {
+        "id_categoria": 4,
+        "nombre": "Sales minerales",
+        "descripcion": "Suplemento mineral para ganado",
+        "precio": "45000.00",
+        "stock_actual": 146,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/sal-mineral.png"
+    }
+},
+{
+    "model": "productos.producto",
+    "pk": 16,
+    "fields": {
+        "id_categoria": 4,
+        "nombre": "Desparasitante",
+        "descripcion": "Control de parßsitos internos",
+        "precio": "29999.99",
+        "stock_actual": 192,
+        "stock_minimo": 10,
+        "estado": true,
+        "imagen": "productos/desparasitante.png"
+    }
+},
+{
+    "model": "pedidos.estadopedido",
+    "pk": 1,
+    "fields": {
+        "nombre": "PENDIENTE",
+        "descripcion": ""
+    }
+},
+{
+    "model": "pedidos.estadopedido",
+    "pk": 2,
+    "fields": {
+        "nombre": "CONFIRMADO",
+        "descripcion": ""
+    }
+},
+{
+    "model": "pedidos.estadopedido",
+    "pk": 3,
+    "fields": {
+        "nombre": "ENTREGADO",
+        "descripcion": ""
+    }
+},
+{
+    "model": "pedidos.estadopedido",
+    "pk": 4,
+    "fields": {
+        "nombre": "INACTIVO",
+        "descripcion": ""
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 1,
+    "fields": {
+        "id_cliente": [
+            "maria@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-05T17:19:16.781Z",
+        "total": "190000.00",
+        "canal": "web",
+        "observaciones": ""
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 2,
+    "fields": {
+        "id_cliente": [
+            "maria@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 1,
+        "fecha": "2026-05-05T17:35:10.154Z",
+        "total": "475000.00",
+        "canal": "web",
+        "observaciones": ""
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 3,
+    "fields": {
+        "id_cliente": [
+            "andres.ruiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-19T10:30:00Z",
+        "total": "315000.00",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-19"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 4,
+    "fields": {
+        "id_cliente": [
+            "carlos.pineda@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2026-05-19T14:15:00Z",
+        "total": "90000.00",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-19"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 5,
+    "fields": {
+        "id_cliente": [
+            "diana.ortiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-18T09:00:00Z",
+        "total": "60000.00",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-18"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 6,
+    "fields": {
+        "id_cliente": [
+            "juan.gomez@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2026-05-18T16:45:00Z",
+        "total": "215000.00",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-18"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 7,
+    "fields": {
+        "id_cliente": [
+            "laura.castro@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-15T11:20:00Z",
+        "total": "85000.00",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-15"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 8,
+    "fields": {
+        "id_cliente": [
+            "andres.ruiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-12T15:10:00Z",
+        "total": "620000.00",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-12"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 9,
+    "fields": {
+        "id_cliente": [
+            "carlos.pineda@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2026-05-10T08:30:00Z",
+        "total": "159999.97",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-10"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 10,
+    "fields": {
+        "id_cliente": [
+            "diana.ortiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-05T13:00:00Z",
+        "total": "374999.97",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-05"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 11,
+    "fields": {
+        "id_cliente": [
+            "juan.gomez@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-05-01T17:30:00Z",
+        "total": "499999.98",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-05-01"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 12,
+    "fields": {
+        "id_cliente": [
+            "laura.castro@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-04-28T10:00:00Z",
+        "total": "180000.00",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2026-04-28"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 13,
+    "fields": {
+        "id_cliente": [
+            "andres.ruiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2026-04-20T14:00:00Z",
+        "total": "725000.00",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-04-20"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 14,
+    "fields": {
+        "id_cliente": [
+            "carlos.pineda@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-04-15T11:30:00Z",
+        "total": "220000.00",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2026-04-15"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 15,
+    "fields": {
+        "id_cliente": [
+            "diana.ortiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-04-10T16:00:00Z",
+        "total": "173999.98",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-04-10"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 16,
+    "fields": {
+        "id_cliente": [
+            "juan.gomez@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-04-03T09:45:00Z",
+        "total": "120000.00",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-04-03"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 17,
+    "fields": {
+        "id_cliente": [
+            "laura.castro@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-03-25T14:30:00Z",
+        "total": "436999.99",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-03-25"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 18,
+    "fields": {
+        "id_cliente": [
+            "andres.ruiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-03-10T11:15:00Z",
+        "total": "315000.00",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2026-03-10"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 19,
+    "fields": {
+        "id_cliente": [
+            "carlos.pineda@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2026-03-02T10:00:00Z",
+        "total": "140000.00",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-03-02"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 20,
+    "fields": {
+        "id_cliente": [
+            "diana.ortiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-02-14T15:00:00Z",
+        "total": "204000.00",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2026-02-14"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 21,
+    "fields": {
+        "id_cliente": [
+            "juan.gomez@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2026-01-20T12:00:00Z",
+        "total": "269999.99",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2026-01-20"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 22,
+    "fields": {
+        "id_cliente": [
+            "laura.castro@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2025-12-24T16:00:00Z",
+        "total": "70000.00",
+        "canal": "web",
+        "observaciones": "Pedido de prueba para filtros - 2025-12-24"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 23,
+    "fields": {
+        "id_cliente": [
+            "andres.ruiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 2,
+        "fecha": "2025-12-15T09:30:00Z",
+        "total": "95000.00",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2025-12-15"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 24,
+    "fields": {
+        "id_cliente": [
+            "carlos.pineda@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2025-11-20T10:00:00Z",
+        "total": "59999.98",
+        "canal": "telefono",
+        "observaciones": "Pedido de prueba para filtros - 2025-11-20"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 25,
+    "fields": {
+        "id_cliente": [
+            "diana.ortiz@gmail.com"
+        ],
+        "id_empleado": null,
+        "id_estado": 3,
+        "fecha": "2025-11-05T14:00:00Z",
+        "total": "330999.97",
+        "canal": "whatsapp",
+        "observaciones": "Pedido de prueba para filtros - 2025-11-05"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 1,
+    "fields": {
+        "id_pedido": 1,
+        "id_producto": 1,
+        "cantidad": 2,
+        "precio_unitario": "95000.00",
+        "subtotal": "190000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 2,
+    "fields": {
+        "id_pedido": 2,
+        "id_producto": 1,
+        "cantidad": 5,
+        "precio_unitario": "95000.00",
+        "subtotal": "475000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 3,
+    "fields": {
+        "id_pedido": 3,
+        "id_producto": 8,
+        "cantidad": 2,
+        "precio_unitario": "30000.00",
+        "subtotal": "60000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 4,
+    "fields": {
+        "id_pedido": 3,
+        "id_producto": 14,
+        "cantidad": 3,
+        "precio_unitario": "85000.00",
+        "subtotal": "255000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 5,
+    "fields": {
+        "id_pedido": 4,
+        "id_producto": 8,
+        "cantidad": 3,
+        "precio_unitario": "30000.00",
+        "subtotal": "90000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 6,
+    "fields": {
+        "id_pedido": 5,
+        "id_producto": 8,
+        "cantidad": 2,
+        "precio_unitario": "30000.00",
+        "subtotal": "60000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 7,
+    "fields": {
+        "id_pedido": 6,
+        "id_producto": 11,
+        "cantidad": 1,
+        "precio_unitario": "55000.00",
+        "subtotal": "55000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 8,
+    "fields": {
+        "id_pedido": 6,
+        "id_producto": 4,
+        "cantidad": 2,
+        "precio_unitario": "80000.00",
+        "subtotal": "160000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 9,
+    "fields": {
+        "id_pedido": 7,
+        "id_producto": 14,
+        "cantidad": 1,
+        "precio_unitario": "85000.00",
+        "subtotal": "85000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 10,
+    "fields": {
+        "id_pedido": 8,
+        "id_producto": 4,
+        "cantidad": 4,
+        "precio_unitario": "80000.00",
+        "subtotal": "320000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 11,
+    "fields": {
+        "id_pedido": 8,
+        "id_producto": 11,
+        "cantidad": 3,
+        "precio_unitario": "55000.00",
+        "subtotal": "165000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 12,
+    "fields": {
+        "id_pedido": 8,
+        "id_producto": 5,
+        "cantidad": 3,
+        "precio_unitario": "45000.00",
+        "subtotal": "135000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 13,
+    "fields": {
+        "id_pedido": 9,
+        "id_producto": 6,
+        "cantidad": 2,
+        "precio_unitario": "35000.00",
+        "subtotal": "70000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 14,
+    "fields": {
+        "id_pedido": 9,
+        "id_producto": 16,
+        "cantidad": 3,
+        "precio_unitario": "29999.99",
+        "subtotal": "89999.97"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 15,
+    "fields": {
+        "id_pedido": 10,
+        "id_producto": 9,
+        "cantidad": 3,
+        "precio_unitario": "38000.00",
+        "subtotal": "114000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 16,
+    "fields": {
+        "id_pedido": 10,
+        "id_producto": 2,
+        "cantidad": 3,
+        "precio_unitario": "86999.99",
+        "subtotal": "260999.97"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 17,
+    "fields": {
+        "id_pedido": 11,
+        "id_producto": 10,
+        "cantidad": 1,
+        "precio_unitario": "60000.00",
+        "subtotal": "60000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 18,
+    "fields": {
+        "id_pedido": 11,
+        "id_producto": 16,
+        "cantidad": 2,
+        "precio_unitario": "29999.99",
+        "subtotal": "59999.98"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 19,
+    "fields": {
+        "id_pedido": 11,
+        "id_producto": 1,
+        "cantidad": 4,
+        "precio_unitario": "95000.00",
+        "subtotal": "380000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 20,
+    "fields": {
+        "id_pedido": 12,
+        "id_producto": 15,
+        "cantidad": 4,
+        "precio_unitario": "45000.00",
+        "subtotal": "180000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 21,
+    "fields": {
+        "id_pedido": 13,
+        "id_producto": 13,
+        "cantidad": 4,
+        "precio_unitario": "65000.00",
+        "subtotal": "260000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 22,
+    "fields": {
+        "id_pedido": 13,
+        "id_producto": 14,
+        "cantidad": 3,
+        "precio_unitario": "85000.00",
+        "subtotal": "255000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 23,
+    "fields": {
+        "id_pedido": 13,
+        "id_producto": 12,
+        "cantidad": 3,
+        "precio_unitario": "70000.00",
+        "subtotal": "210000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 24,
+    "fields": {
+        "id_pedido": 14,
+        "id_producto": 11,
+        "cantidad": 4,
+        "precio_unitario": "55000.00",
+        "subtotal": "220000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 25,
+    "fields": {
+        "id_pedido": 15,
+        "id_producto": 2,
+        "cantidad": 2,
+        "precio_unitario": "86999.99",
+        "subtotal": "173999.98"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 26,
+    "fields": {
+        "id_pedido": 16,
+        "id_producto": 3,
+        "cantidad": 1,
+        "precio_unitario": "120000.00",
+        "subtotal": "120000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 27,
+    "fields": {
+        "id_pedido": 17,
+        "id_producto": 2,
+        "cantidad": 1,
+        "precio_unitario": "86999.99",
+        "subtotal": "86999.99"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 28,
+    "fields": {
+        "id_pedido": 17,
+        "id_producto": 4,
+        "cantidad": 3,
+        "precio_unitario": "80000.00",
+        "subtotal": "240000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 29,
+    "fields": {
+        "id_pedido": 17,
+        "id_producto": 11,
+        "cantidad": 2,
+        "precio_unitario": "55000.00",
+        "subtotal": "110000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 30,
+    "fields": {
+        "id_pedido": 18,
+        "id_producto": 13,
+        "cantidad": 4,
+        "precio_unitario": "65000.00",
+        "subtotal": "260000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 31,
+    "fields": {
+        "id_pedido": 18,
+        "id_producto": 11,
+        "cantidad": 1,
+        "precio_unitario": "55000.00",
+        "subtotal": "55000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 32,
+    "fields": {
+        "id_pedido": 19,
+        "id_producto": 12,
+        "cantidad": 2,
+        "precio_unitario": "70000.00",
+        "subtotal": "140000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 33,
+    "fields": {
+        "id_pedido": 20,
+        "id_producto": 9,
+        "cantidad": 3,
+        "precio_unitario": "38000.00",
+        "subtotal": "114000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 34,
+    "fields": {
+        "id_pedido": 20,
+        "id_producto": 8,
+        "cantidad": 3,
+        "precio_unitario": "30000.00",
+        "subtotal": "90000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 35,
+    "fields": {
+        "id_pedido": 21,
+        "id_producto": 4,
+        "cantidad": 3,
+        "precio_unitario": "80000.00",
+        "subtotal": "240000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 36,
+    "fields": {
+        "id_pedido": 21,
+        "id_producto": 16,
+        "cantidad": 1,
+        "precio_unitario": "29999.99",
+        "subtotal": "29999.99"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 37,
+    "fields": {
+        "id_pedido": 22,
+        "id_producto": 12,
+        "cantidad": 1,
+        "precio_unitario": "70000.00",
+        "subtotal": "70000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 38,
+    "fields": {
+        "id_pedido": 23,
+        "id_producto": 1,
+        "cantidad": 1,
+        "precio_unitario": "95000.00",
+        "subtotal": "95000.00"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 39,
+    "fields": {
+        "id_pedido": 24,
+        "id_producto": 16,
+        "cantidad": 2,
+        "precio_unitario": "29999.99",
+        "subtotal": "59999.98"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 40,
+    "fields": {
+        "id_pedido": 25,
+        "id_producto": 2,
+        "cantidad": 3,
+        "precio_unitario": "86999.99",
+        "subtotal": "260999.97"
+    }
+},
+{
+    "model": "pedidos.detallepedido",
+    "pk": 41,
+    "fields": {
+        "id_pedido": 25,
+        "id_producto": 6,
+        "cantidad": 2,
+        "precio_unitario": "35000.00",
+        "subtotal": "70000.00"
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 1,
+    "fields": {
+        "id_pedido": 1,
+        "id_estado": 2,
+        "fecha": "2026-05-05T17:19:48.109Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 2,
+    "fields": {
+        "id_pedido": 1,
+        "id_estado": 3,
+        "fecha": "2026-05-11T04:32:19.222Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 3,
+    "fields": {
+        "id_pedido": 3,
+        "id_estado": 3,
+        "fecha": "2026-05-19T10:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 4,
+    "fields": {
+        "id_pedido": 4,
+        "id_estado": 2,
+        "fecha": "2026-05-19T14:15:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 5,
+    "fields": {
+        "id_pedido": 5,
+        "id_estado": 3,
+        "fecha": "2026-05-18T09:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 6,
+    "fields": {
+        "id_pedido": 6,
+        "id_estado": 2,
+        "fecha": "2026-05-18T16:45:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 7,
+    "fields": {
+        "id_pedido": 7,
+        "id_estado": 3,
+        "fecha": "2026-05-15T11:20:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 8,
+    "fields": {
+        "id_pedido": 8,
+        "id_estado": 3,
+        "fecha": "2026-05-12T15:10:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 9,
+    "fields": {
+        "id_pedido": 9,
+        "id_estado": 2,
+        "fecha": "2026-05-10T08:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 10,
+    "fields": {
+        "id_pedido": 10,
+        "id_estado": 3,
+        "fecha": "2026-05-05T13:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 11,
+    "fields": {
+        "id_pedido": 11,
+        "id_estado": 3,
+        "fecha": "2026-05-01T17:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 12,
+    "fields": {
+        "id_pedido": 12,
+        "id_estado": 3,
+        "fecha": "2026-04-28T10:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 13,
+    "fields": {
+        "id_pedido": 13,
+        "id_estado": 2,
+        "fecha": "2026-04-20T14:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 14,
+    "fields": {
+        "id_pedido": 14,
+        "id_estado": 3,
+        "fecha": "2026-04-15T11:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 15,
+    "fields": {
+        "id_pedido": 15,
+        "id_estado": 3,
+        "fecha": "2026-04-10T16:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 16,
+    "fields": {
+        "id_pedido": 16,
+        "id_estado": 3,
+        "fecha": "2026-04-03T09:45:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 17,
+    "fields": {
+        "id_pedido": 17,
+        "id_estado": 3,
+        "fecha": "2026-03-25T14:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 18,
+    "fields": {
+        "id_pedido": 18,
+        "id_estado": 3,
+        "fecha": "2026-03-10T11:15:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 19,
+    "fields": {
+        "id_pedido": 19,
+        "id_estado": 2,
+        "fecha": "2026-03-02T10:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 20,
+    "fields": {
+        "id_pedido": 20,
+        "id_estado": 3,
+        "fecha": "2026-02-14T15:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 21,
+    "fields": {
+        "id_pedido": 21,
+        "id_estado": 3,
+        "fecha": "2026-01-20T12:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 22,
+    "fields": {
+        "id_pedido": 22,
+        "id_estado": 3,
+        "fecha": "2025-12-24T16:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 23,
+    "fields": {
+        "id_pedido": 23,
+        "id_estado": 2,
+        "fecha": "2025-12-15T09:30:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 24,
+    "fields": {
+        "id_pedido": 24,
+        "id_estado": 3,
+        "fecha": "2025-11-20T10:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.historialestado",
+    "pk": 25,
+    "fields": {
+        "id_pedido": 25,
+        "id_estado": 3,
+        "fecha": "2025-11-05T14:00:00Z",
+        "id_usuario": [
+            "admin@covagro.com"
+        ]
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 1,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #1 de maria perez",
+        "leida": true,
+        "fecha": "2026-05-05T17:19:16.787Z",
+        "id_pedido": 1
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 2,
+    "fields": {
+        "tipo": "CAMBIO_ESTADO",
+        "mensaje": "El pedido #1 cambi¾ a CONFIRMADO",
+        "leida": true,
+        "fecha": "2026-05-05T17:19:48.117Z",
+        "id_pedido": 1
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 3,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #2 de maria perez",
+        "leida": true,
+        "fecha": "2026-05-05T17:35:10.164Z",
+        "id_pedido": 2
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 4,
+    "fields": {
+        "tipo": "CAMBIO_ESTADO",
+        "mensaje": "El pedido #1 cambi¾ a ENTREGADO",
+        "leida": true,
+        "fecha": "2026-05-11T04:32:19.227Z",
+        "id_pedido": 1
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 5,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #3 de AndrÚs Felipe Ruiz por $315000.00",
+        "leida": true,
+        "fecha": "2026-05-19T10:30:00Z",
+        "id_pedido": 3
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 6,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #4 de Carlos Arturo Pineda por $90000.00",
+        "leida": true,
+        "fecha": "2026-05-19T14:15:00Z",
+        "id_pedido": 4
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 7,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #5 de Diana Marcela Ortiz por $60000.00",
+        "leida": true,
+        "fecha": "2026-05-18T09:00:00Z",
+        "id_pedido": 5
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 8,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #6 de Juan Carlos G¾mez por $215000.00",
+        "leida": true,
+        "fecha": "2026-05-18T16:45:00Z",
+        "id_pedido": 6
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 9,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #7 de Laura SofÝa Castro por $85000.00",
+        "leida": true,
+        "fecha": "2026-05-15T11:20:00Z",
+        "id_pedido": 7
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 10,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #8 de AndrÚs Felipe Ruiz por $620000.00",
+        "leida": true,
+        "fecha": "2026-05-12T15:10:00Z",
+        "id_pedido": 8
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 11,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #9 de Carlos Arturo Pineda por $159999.97",
+        "leida": true,
+        "fecha": "2026-05-10T08:30:00Z",
+        "id_pedido": 9
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 12,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #10 de Diana Marcela Ortiz por $374999.97",
+        "leida": true,
+        "fecha": "2026-05-05T13:00:00Z",
+        "id_pedido": 10
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 13,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #11 de Juan Carlos G¾mez por $499999.98",
+        "leida": true,
+        "fecha": "2026-05-01T17:30:00Z",
+        "id_pedido": 11
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 14,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #12 de Laura SofÝa Castro por $180000.00",
+        "leida": true,
+        "fecha": "2026-04-28T10:00:00Z",
+        "id_pedido": 12
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 15,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #13 de AndrÚs Felipe Ruiz por $725000.00",
+        "leida": true,
+        "fecha": "2026-04-20T14:00:00Z",
+        "id_pedido": 13
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 16,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #14 de Carlos Arturo Pineda por $220000.00",
+        "leida": true,
+        "fecha": "2026-04-15T11:30:00Z",
+        "id_pedido": 14
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 17,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #15 de Diana Marcela Ortiz por $173999.98",
+        "leida": true,
+        "fecha": "2026-04-10T16:00:00Z",
+        "id_pedido": 15
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 18,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #16 de Juan Carlos G¾mez por $120000.00",
+        "leida": true,
+        "fecha": "2026-04-03T09:45:00Z",
+        "id_pedido": 16
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 19,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #17 de Laura SofÝa Castro por $436999.99",
+        "leida": true,
+        "fecha": "2026-03-25T14:30:00Z",
+        "id_pedido": 17
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 20,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #18 de AndrÚs Felipe Ruiz por $315000.00",
+        "leida": true,
+        "fecha": "2026-03-10T11:15:00Z",
+        "id_pedido": 18
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 21,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #19 de Carlos Arturo Pineda por $140000.00",
+        "leida": true,
+        "fecha": "2026-03-02T10:00:00Z",
+        "id_pedido": 19
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 22,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #20 de Diana Marcela Ortiz por $204000.00",
+        "leida": true,
+        "fecha": "2026-02-14T15:00:00Z",
+        "id_pedido": 20
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 23,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #21 de Juan Carlos G¾mez por $269999.99",
+        "leida": true,
+        "fecha": "2026-01-20T12:00:00Z",
+        "id_pedido": 21
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 24,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #22 de Laura SofÝa Castro por $70000.00",
+        "leida": true,
+        "fecha": "2025-12-24T16:00:00Z",
+        "id_pedido": 22
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 25,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #23 de AndrÚs Felipe Ruiz por $95000.00",
+        "leida": true,
+        "fecha": "2025-12-15T09:30:00Z",
+        "id_pedido": 23
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 26,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #24 de Carlos Arturo Pineda por $59999.98",
+        "leida": true,
+        "fecha": "2025-11-20T10:00:00Z",
+        "id_pedido": 24
+    }
+},
+{
+    "model": "pedidos.notificacion",
+    "pk": 27,
+    "fields": {
+        "tipo": "NUEVO_PEDIDO",
+        "mensaje": "Nuevo pedido #25 de Diana Marcela Ortiz por $330999.97",
+        "leida": true,
+        "fecha": "2025-11-05T14:00:00Z",
+        "id_pedido": 25
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 1,
+    "fields": {
+        "producto": 1,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-05T17:19:16.786Z",
+        "referencia": "Pedido #1"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 2,
+    "fields": {
+        "producto": 1,
+        "tipo": "salida",
+        "cantidad": 5,
+        "fecha": "2026-05-05T17:35:10.163Z",
+        "referencia": "Pedido #2"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 3,
+    "fields": {
+        "producto": 8,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-19T10:30:00Z",
+        "referencia": "Pedido #3 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 4,
+    "fields": {
+        "producto": 14,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-19T10:30:00Z",
+        "referencia": "Pedido #3 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 5,
+    "fields": {
+        "producto": 8,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-19T14:15:00Z",
+        "referencia": "Pedido #4 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 6,
+    "fields": {
+        "producto": 8,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-18T09:00:00Z",
+        "referencia": "Pedido #5 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 7,
+    "fields": {
+        "producto": 11,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-05-18T16:45:00Z",
+        "referencia": "Pedido #6 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 8,
+    "fields": {
+        "producto": 4,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-18T16:45:00Z",
+        "referencia": "Pedido #6 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 9,
+    "fields": {
+        "producto": 14,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-05-15T11:20:00Z",
+        "referencia": "Pedido #7 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 10,
+    "fields": {
+        "producto": 4,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-05-12T15:10:00Z",
+        "referencia": "Pedido #8 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 11,
+    "fields": {
+        "producto": 11,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-12T15:10:00Z",
+        "referencia": "Pedido #8 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 12,
+    "fields": {
+        "producto": 5,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-12T15:10:00Z",
+        "referencia": "Pedido #8 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 13,
+    "fields": {
+        "producto": 6,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-10T08:30:00Z",
+        "referencia": "Pedido #9 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 14,
+    "fields": {
+        "producto": 16,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-10T08:30:00Z",
+        "referencia": "Pedido #9 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 15,
+    "fields": {
+        "producto": 9,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-05T13:00:00Z",
+        "referencia": "Pedido #10 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 16,
+    "fields": {
+        "producto": 2,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-05-05T13:00:00Z",
+        "referencia": "Pedido #10 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 17,
+    "fields": {
+        "producto": 10,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-05-01T17:30:00Z",
+        "referencia": "Pedido #11 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 18,
+    "fields": {
+        "producto": 16,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-05-01T17:30:00Z",
+        "referencia": "Pedido #11 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 19,
+    "fields": {
+        "producto": 1,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-05-01T17:30:00Z",
+        "referencia": "Pedido #11 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 20,
+    "fields": {
+        "producto": 15,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-04-28T10:00:00Z",
+        "referencia": "Pedido #12 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 21,
+    "fields": {
+        "producto": 13,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-04-20T14:00:00Z",
+        "referencia": "Pedido #13 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 22,
+    "fields": {
+        "producto": 14,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-04-20T14:00:00Z",
+        "referencia": "Pedido #13 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 23,
+    "fields": {
+        "producto": 12,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-04-20T14:00:00Z",
+        "referencia": "Pedido #13 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 24,
+    "fields": {
+        "producto": 11,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-04-15T11:30:00Z",
+        "referencia": "Pedido #14 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 25,
+    "fields": {
+        "producto": 2,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-04-10T16:00:00Z",
+        "referencia": "Pedido #15 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 26,
+    "fields": {
+        "producto": 3,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-04-03T09:45:00Z",
+        "referencia": "Pedido #16 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 27,
+    "fields": {
+        "producto": 2,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-03-25T14:30:00Z",
+        "referencia": "Pedido #17 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 28,
+    "fields": {
+        "producto": 4,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-03-25T14:30:00Z",
+        "referencia": "Pedido #17 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 29,
+    "fields": {
+        "producto": 11,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-03-25T14:30:00Z",
+        "referencia": "Pedido #17 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 30,
+    "fields": {
+        "producto": 13,
+        "tipo": "salida",
+        "cantidad": 4,
+        "fecha": "2026-03-10T11:15:00Z",
+        "referencia": "Pedido #18 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 31,
+    "fields": {
+        "producto": 11,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-03-10T11:15:00Z",
+        "referencia": "Pedido #18 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 32,
+    "fields": {
+        "producto": 12,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2026-03-02T10:00:00Z",
+        "referencia": "Pedido #19 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 33,
+    "fields": {
+        "producto": 9,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-02-14T15:00:00Z",
+        "referencia": "Pedido #20 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 34,
+    "fields": {
+        "producto": 8,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-02-14T15:00:00Z",
+        "referencia": "Pedido #20 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 35,
+    "fields": {
+        "producto": 4,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2026-01-20T12:00:00Z",
+        "referencia": "Pedido #21 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 36,
+    "fields": {
+        "producto": 16,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2026-01-20T12:00:00Z",
+        "referencia": "Pedido #21 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 37,
+    "fields": {
+        "producto": 12,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2025-12-24T16:00:00Z",
+        "referencia": "Pedido #22 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 38,
+    "fields": {
+        "producto": 1,
+        "tipo": "salida",
+        "cantidad": 1,
+        "fecha": "2025-12-15T09:30:00Z",
+        "referencia": "Pedido #23 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 39,
+    "fields": {
+        "producto": 16,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2025-11-20T10:00:00Z",
+        "referencia": "Pedido #24 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 40,
+    "fields": {
+        "producto": 2,
+        "tipo": "salida",
+        "cantidad": 3,
+        "fecha": "2025-11-05T14:00:00Z",
+        "referencia": "Pedido #25 (Prueba)"
+    }
+},
+{
+    "model": "inventario.movimientoinventario",
+    "pk": 41,
+    "fields": {
+        "producto": 6,
+        "tipo": "salida",
+        "cantidad": 2,
+        "fecha": "2025-11-05T14:00:00Z",
+        "referencia": "Pedido #25 (Prueba)"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-04-17T23:26:08.774Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "rol"
+        ],
+        "object_id": "2",
+        "object_repr": "EMPLEADO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-04-17T23:26:20.997Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "rol"
+        ],
+        "object_id": "3",
+        "object_repr": "CLIENTE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-04-17T23:27:09.141Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-04-17T23:32:30.868Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-04-17T23:32:53.630Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-04-17T23:33:02.529Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "1",
+        "object_repr": "admin@covagro.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-04-17T23:33:15.870Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "1",
+        "object_repr": "admin@covagro.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-04-17T23:33:21.972Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "2",
+        "object_repr": "admin@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-04-17T23:33:43.187Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-04-17T23:33:46.621Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-04-17T23:35:57.835Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "4",
+        "object_repr": "emp@covagro.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-04-17T23:36:02.943Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "4",
+        "object_repr": "emp@covagro.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-04-17T23:41:55.816Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "3",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-04-17T23:42:58.211Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "5",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-04-17T23:44:09.143Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "usuarios",
+            "usuario"
+        ],
+        "object_id": "5",
+        "object_repr": "maria@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-04-18T01:24:50.114Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "productos",
+            "categoria"
+        ],
+        "object_id": "1",
+        "object_repr": "FERTILIZANTE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-04-18T01:25:02.174Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "productos",
+            "categoria"
+        ],
+        "object_id": "2",
+        "object_repr": "HERBICIDA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-04-18T01:25:12.452Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "productos",
+            "categoria"
+        ],
+        "object_id": "3",
+        "object_repr": "VENENO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-04-18T01:25:24.066Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "productos",
+            "categoria"
+        ],
+        "object_id": "4",
+        "object_repr": "PRODUCTO-PECUARIO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-04-18T01:27:38.305Z",
+        "user": [
+            "admin@gmail.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "1",
+        "object_repr": "Urea 46%",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-05-11T03:40:17.971Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "2",
+        "object_repr": "Triple 15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-05-11T03:42:48.949Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "3",
+        "object_repr": "DAP Fosfato Diam¾nico",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-05-11T03:44:56.694Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "4",
+        "object_repr": "Cloruro de Potasio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-05-11T03:48:20.309Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "5",
+        "object_repr": "Cal Agricola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-05-11T03:50:22.703Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "6",
+        "object_repr": "Glifosato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-05-11T03:54:08.370Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "7",
+        "object_repr": "Paraquat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-05-11T03:55:57.307Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "8",
+        "object_repr": "2,4-D Amina",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-05-11T03:58:03.026Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "9",
+        "object_repr": "Atrazina",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-05-11T04:00:01.489Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "10",
+        "object_repr": "Clorpirifos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-05-11T04:01:44.409Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "11",
+        "object_repr": "Imidacloprid",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2026-05-11T04:04:28.122Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "12",
+        "object_repr": "Fipronil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2026-05-11T04:05:43.649Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "13",
+        "object_repr": "Abamectina",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2026-05-11T04:07:13.325Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "14",
+        "object_repr": "Concentrado Bovino 40kg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2026-05-11T04:09:11.855Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "15",
+        "object_repr": "Sales minerales",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2026-05-11T04:12:22.263Z",
+        "user": [
+            "admin@covagro.com"
+        ],
+        "content_type": [
+            "productos",
+            "producto"
+        ],
+        "object_id": "16",
+        "object_repr": "Desparasitante",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
