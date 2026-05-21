@@ -1,20 +1,13 @@
 {
   "version": 2,
-  "buildCommand": "pip install -r requirements.txt",
-  "outputDirectory": ".",
+  "buildCommand": "pip install -r requirements.txt && python manage.py collectstatic --noinput",
   "framework": "django",
-  "functions": {
-    "config/wsgi.py": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  },
   "routes": [
     {
       "src": "/static/(.*)",
       "dest": "/static/$1",
       "headers": {
-        "Cache-Control": "public, max-age=3600"
+        "Cache-Control": "public, max-age=31536000"
       }
     },
     {
@@ -23,10 +16,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "config/wsgi.py"
+      "dest": "/index.py"
     }
-  ],
-  "env": {
-    "PYTHONUNBUFFERED": "1"
-  }
+  ]
 }
