@@ -19,11 +19,15 @@ export default function NuevoPedidoEmp() {
     const [error, setError] = useState('')
 
     useEffect(() => {
-        Promise.all([api.get('/productos/'), api.get('/usuarios/')]).then(([p, u]) => {
-            setProductos(p.data.filter(x => x.estado && x.stock_actual > 0))
-            // Filtrar solo usuarios con rol CLIENTE (id_rol === 1)
-            setClientes(u.data.filter(x => x.id_rol === 1))
-        })
+    Promise.all([api.get('/productos/'), api.get('/usuarios/'), api.get('/roles/')]).then(([p, u, r]) => {
+        setProductos(p.data.filter(x => x.estado && x.stock_actual > 0))
+        
+        // Encontrar dinámicamente el rol CLIENTE
+        const rolCliente = r.data.find(rol => rol.nombre === 'CLIENTE')
+        const clienteRolId = rolCliente?.id
+        
+        setClientes(u.data.filter(x => x.id_rol === clienteRolId))
+    })
     }, [])
 
     const actualizarLinea = (i, campo, valor) => {
