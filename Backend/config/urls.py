@@ -6,21 +6,27 @@ from usuarios.views import CustomTokenObtainPairView
 from django.conf import settings
 from django.conf.urls.static import static
 
+# API principal
 api_patterns = [
     path('token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('usuarios/', include('usuarios.urls')),
-    path('productos/', include('productos.urls')),
-    path('pedidos/', include('pedidos.urls')),
+
+    # Alias frontend esperados
+    path('', include('productos.urls')),
+    path('', include('pedidos.urls')),
+    path('', include('usuarios.urls')),
     path('inventario/', include('inventario.urls')),
 ]
 
-# Vista simple para la raíz
+# Home
 def home(request):
-    return JsonResponse({"status": "ok", "message": "Backend Covagro funcionando"})
+    return JsonResponse({
+        "status": "ok",
+        "message": "Backend Covagro funcionando"
+    })
 
 urlpatterns = [
-    path('', home),  # <-- nueva ruta para "/"
+    path('', home),
     path('admin/', admin.site.urls),
     path('api/', include(api_patterns)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
