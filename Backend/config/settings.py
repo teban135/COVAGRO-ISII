@@ -78,6 +78,18 @@ CORS_ALLOWED_ORIGINS = [
     "https://covagro-isii.pages.dev",
 ]
 
+# Permitir patrones de origen (útil para subdominios en Vercel u otros hosts dinámicos)
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.vercel\.app$",
+    r"^https://.*\.pages\.dev$",
+]
+
+# Asegurar que el header Authorization esté permitido en CORS
+from corsheaders.defaults import default_headers
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    'Authorization',
+]
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
