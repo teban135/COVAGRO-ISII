@@ -2,27 +2,29 @@ import api from './api'
 
 // Hace login contra Django JWT y devuelve datos del usuario
 export const loginService = async (email, password) => {
-    // 1) Obtener tokens JWT
+    // 1) Obtener tokens JWT + datos del usuario en una sola llamada
     const tokenRes = await api.post('/token/', { email: email, password })
-    const { access, refresh } = tokenRes.data
+    const { access, refresh, usuario } = tokenRes.data
+    
+    // 2) Guardar tokens en localStorage
     localStorage.setItem('access', access)
     localStorage.setItem('refresh', refresh)
 
-    // 2) Obtener datos del usuario por email
-    const usuariosRes = await api.get('/usuarios/')
-    const usuario = usuariosRes.data.find(u => u.email === email)
-    if (!usuario) throw new Error('Usuario no encontrado')
+    // 3) Validar que el usuario existe en la respuesta
+    if (!usuario) throw new Error('Usuario no encontrado en la respuesta del servidor')
 
-    // 3) Obtener nombre del rol
-    const rolesRes = await api.get('/roles/')
-    const rol = rolesRes.data.find(r => r.id === usuario.id_rol)
-
+    // 4) Retornar datos del usuario formateados
     return {
         id: usuario.id,
         nombre: usuario.nombre,
         email: usuario.email,
-        rol: rol ? rol.nombre.toUpperCase() : 'CLIENTE',
+        rol: usuario.rol || 'CLIENTE', // Viene del backend en mayúsculas
+        rol_id: usuario.rol_id,
         canal: usuario.canal || 'presencial',
+        es_admin: usuario.es_admin,
+        es_empleado: usuario.es_empleado,
+        es_cliente: usuario.es_cliente,
+        estado: usuario.estado,
     }
 }
 
