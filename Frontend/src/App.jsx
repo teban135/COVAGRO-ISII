@@ -6,11 +6,11 @@ import Login from './pages/Login'
 import Catalogo from './pages/Catalogo'
 import NuevoPedidoCliente from './pages/NuevoPedidoCliente'
 import MisPedidos from './pages/MisPedidos'
-import NuevoPedidoEmp from './pages/NuevoPedidoEmp'
 import ConsultarPedidos from './pages/ConsultarPedidos'
 import EditarPedido from './pages/EditarPedido'
 import Inventario from './pages/Inventario'
 import Reportes from './pages/Reportes'
+import NuevoPedidoForm from './pages/NuevoPedidoForm'
 
 const RUTA_DEFAULT = { CLIENTE: '/catalogo', EMPLEADO: '/pedidos', ADMIN: '/pedidos' }
 
@@ -45,7 +45,7 @@ export default function App() {
         {/* ── EMPLEADO / ADMIN ── */}
         <Route path="/pedido-empleado" element={
           <ProtectedRoute roles={['EMPLEADO', 'ADMIN']}>
-            <NuevoPedidoEmp />
+            <NuevoPedidoForm />
           </ProtectedRoute>
         } />
         <Route path="/pedidos" element={
