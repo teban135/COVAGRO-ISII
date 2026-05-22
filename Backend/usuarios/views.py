@@ -27,6 +27,8 @@ class UsuarioViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
-        if hasattr(user, 'es_admin') and user.es_admin:
+        # Admin y Empleado ven todos
+        if user.es_admin or user.es_empleado:
             return Usuario.objects.all()
+        # Cliente solo a sí mismo
         return Usuario.objects.filter(id=user.id)
