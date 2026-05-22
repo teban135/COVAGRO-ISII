@@ -19,7 +19,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         if not email or not password:
             raise serializers.ValidationError('Email y contraseña son requeridos')
         
-        # Buscar usuario por email
+        # Buscar usuario por email EN LA BASE DE DATOS
         try:
             user = Usuario.objects.get(email=email)
         except Usuario.DoesNotExist:
@@ -36,7 +36,20 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         refresh = self.get_token(user)
         data = {
             'access': str(refresh.access_token),
-            'refresh': str(refresh)
+            'refresh': str(refresh),
+            'usuario': {
+                'id': user.id,
+                'email': user.email,
+                'nombre': user.nombre,
+                'telefono': user.telefono,
+                'canal': user.canal,
+                'estado': user.is_active,
+                'rol': user.id_rol.nombre,
+                'rol_id': user.id_rol.id,
+                'es_admin': user.es_admin,
+                'es_empleado': user.es_empleado,
+                'es_cliente': user.es_cliente,
+            }
         }
         return data
 
