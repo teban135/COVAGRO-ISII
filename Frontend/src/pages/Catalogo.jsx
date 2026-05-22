@@ -6,10 +6,7 @@ import api from '../services/api'
 const EMOJI_CAT = { fertilizante: '🌱', herbicida: '🌾', veneno: '🐛', pecuario: '🐄' }
 const CSS_CAT = { fertilizante: 'fert', herbicida: 'herb', veneno: 'vene', pecuario: 'pecu' }
 
-const backendBase = api.defaults?.baseURL
-    ? api.defaults.baseURL.replace(/\/api\/?$/, '')
-    : 'https://covagroback.vercel.app'
-const BASE_MEDIA = `${backendBase}/media/`
+const BASE_MEDIA = 'http://127.0.0.1:8000/media/'
 
 export default function Catalogo() {
     const [productos, setProductos] = useState([])
