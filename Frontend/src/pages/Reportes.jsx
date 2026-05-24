@@ -115,8 +115,24 @@ export default function Reportes() {
                 subtotal: prod.subtotal
             }))
         }))
+
+        // Guardar en localStorage
+        localStorage.setItem('pedidosExternos', JSON.stringify(pedidosProcesados))
+        return pedidosProcesados
+
     }
 
+    useEffect(() => {
+        // Cargar pedidos externos de localStorage al montar
+        const pedidosGuardados = localStorage.getItem('pedidosExternos')
+        if (pedidosGuardados) {
+            try {
+                setPedidosExternos(JSON.parse(pedidosGuardados))
+            } catch (error) {
+                console.error('Error cargando pedidos del cache:', error)
+            }
+        }
+    }, [])
 
 
 
@@ -792,7 +808,10 @@ export default function Reportes() {
                                             </div>
                                         </div>
                                         <button
-                                            onClick={() => setPedidosExternos([])}
+                                            onClick={() => {
+                                                setPedidosExternos([])
+                                                localStorage.removeItem('pedidosExternos')
+                                            }}
                                             title="Limpiar datos externos"
                                             style={{
                                                 padding: '6px 12px',
