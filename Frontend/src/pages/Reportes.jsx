@@ -253,25 +253,6 @@ export default function Reportes() {
                                         >
                                             ⬇️ Exportar JSON
                                         </button>
-                                        <button
-                                            onClick={() => fileInputRef.current?.click()}
-                                            title="Importar pedidos desde JSON"
-                                            style={{
-                                                padding: '8px 12px',
-                                                borderRadius: '6px',
-                                                border: '1px solid #3498db',
-                                                background: '#f0f8ff',
-                                                color: '#2980b9',
-                                                cursor: 'pointer',
-                                                fontSize: '0.9rem',
-                                                fontWeight: '500',
-                                                transition: 'all 0.2s'
-                                            }}
-                                            onMouseEnter={(e) => e.target.style.background = '#e6f2ff'}
-                                            onMouseLeave={(e) => e.target.style.background = '#f0f8ff'}
-                                        >
-                                            ⬆️ Importar JSON
-                                        </button>
 
 
                                         <button
