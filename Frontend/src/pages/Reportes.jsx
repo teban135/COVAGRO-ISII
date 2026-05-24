@@ -93,9 +93,8 @@ export default function Reportes() {
     const getNombreEstado = (id) => estados.find(e => e.id === id)?.nombre?.toUpperCase() || ''
 
 
-
     const procesarJsonExterno = (datosJson) => {
-        return datosJson.orders.map((order) => ({
+        const pedidosProcesados = datosJson.orders.map((order) => ({
             id: `EXT-${order.order_id}`,
             nombre_cliente: order.customer.full_name,
             email: order.customer.email,
@@ -118,9 +117,10 @@ export default function Reportes() {
 
         // Guardar en localStorage
         localStorage.setItem('pedidosExternos', JSON.stringify(pedidosProcesados))
-        return pedidosProcesados
 
+        return pedidosProcesados
     }
+
 
     useEffect(() => {
         // Cargar pedidos externos de localStorage al montar
