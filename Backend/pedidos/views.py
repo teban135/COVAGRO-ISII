@@ -138,35 +138,38 @@ class PedidoViewSet(viewsets.ModelViewSet):
                 except ValueError:
                     pass
 
-        # Para las métricas solo usamos ENTREGADO
-        pedidos_periodo = todos_pedidos_periodo.filter(id_estado__nombre='ENTREGADO')
 
-        ventas_totales = pedidos_periodo.aggregate(total=Sum('total'))['total'] or 0
-        cantidad_pedidos = pedidos_periodo.count()
+        # Para las métricas solo usamos ENTREGADO
+        pedidos_entregados = todos_pedidos_periodo.filter(id_estado__nombre='ENTREGADO')
+
+        ventas_totales = pedidos_entregados.aggregate(total=Sum('total'))['total'] or 0
+        cantidad_pedidos = pedidos_entregados.count()
         
-        # Agregación por categoría
+        # Agregación por categoría (solo de entregados)
         por_categoria = DetallePedido.objects.filter(
-            id_pedido__in=pedidos_periodo
+            id_pedido__in=pedidos_entregados
         ).values(
             nombre=F('id_producto__id_categoria__nombre')
         ).annotate(
             valor=Sum('subtotal')
         ).order_by('-valor')
         
-        # Agregación por producto
+        # Agregación por producto (solo de entregados)
         por_producto = DetallePedido.objects.filter(
-            id_pedido__in=pedidos_periodo
+            id_pedido__in=pedidos_entregados
         ).values(
             nombre=F('id_producto__nombre')
         ).annotate(
             valor=Sum('subtotal')
         ).order_by('-valor')
         
-        # Paginate results based on all orders in the period
+        # Paginate results - MOSTRAR TODOS LOS PEDIDOS (sin filtro de estado)
         page_number = request.query_params.get('page', 1)
         paginator = Paginator(todos_pedidos_periodo.order_by('-fecha'), 10)
         page_obj = paginator.get_page(page_number)
         pedidos_serializados = self.get_serializer(page_obj.object_list, many=True).data
+        
+        
         
         # Incluir pedidos importados si los hay
         imported_orders = request.session.get('imported_orders', {}).get('orders', [])
