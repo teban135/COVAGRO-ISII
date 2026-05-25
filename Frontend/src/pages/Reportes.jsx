@@ -178,19 +178,18 @@ export default function Reportes() {
 
 
 
-    const handleImportarPedidos = (e) => {
+    // Para JSON externos (sesión, sin guardar)
+    const handleCargarJsonExterno = (e) => {
         const archivo = e.target.files?.[0]
         if (!archivo) return
 
         setCargandoExterno(true)
 
-        // Leer el archivo AQUÍ en el frontend (sin enviarlo al backend)
         const reader = new FileReader()
         reader.onload = (event) => {
             try {
                 const datosJson = JSON.parse(event.target.result)
 
-                // Validar estructura
                 if (datosJson.orders && Array.isArray(datosJson.orders)) {
                     const pedidosProcesados = procesarJsonExterno(datosJson)
                     setPedidosExternos(pedidosProcesados)
@@ -205,12 +204,37 @@ export default function Reportes() {
                 setTimeout(() => setMensajeImportacion(''), 3000)
             } finally {
                 setCargandoExterno(false)
-                if (fileInputRef.current) fileInputRef.current.value = ''
+                const input = document.getElementById('jsonExternoInput')
+                if (input) input.value = ''
             }
         }
         reader.readAsText(archivo)
     }
 
+    // Para JSON internos a BD (mantener el original si lo tenías)
+    const handleImportarPedidos = (e) => {
+        const archivo = e.target.files?.[0]
+        if (!archivo) return
+
+        const formData = new FormData()
+        formData.append('file', archivo)
+
+        api.post('/pedidos/import-pedidos/', formData)
+            .then(res => {
+                setMensajeImportacion(`✅ ${res.data.message}`)
+                cargarPedidosImportados()
+                cargarReporte()  // Recargar los pedidos internos
+                setTimeout(() => setMensajeImportacion(''), 3000)
+            })
+            .catch(err => {
+                const msg = err.response?.data?.error || 'Error al importar'
+                setMensajeImportacion(`❌ ${msg}`)
+                setTimeout(() => setMensajeImportacion(''), 3000)
+            })
+            .finally(() => {
+                if (fileInputRef.current) fileInputRef.current.value = ''
+            })
+    }
 
 
     const handleLimpiarImportados = () => {
@@ -290,13 +314,25 @@ export default function Reportes() {
                                         >
                                             📦 Cargar JSON Externo
                                         </button>
+
+                                        {/* Input para BD */}
                                         <input
-                                            id="jsonExternoInput"
+                                            ref={fileInputRef}
                                             type="file"
                                             accept=".json"
                                             onChange={handleImportarPedidos}
                                             style={{ display: 'none' }}
                                         />
+
+                                        {/* Input para JSON externo */}
+                                        <input
+                                            id="jsonExternoInput"
+                                            type="file"
+                                            accept=".json"
+                                            onChange={handleCargarJsonExterno}
+                                            style={{ display: 'none' }}
+                                        />
+
                                         {pedidosExternos.length > 0 && (
                                             <span style={{
                                                 padding: '4px 12px',
@@ -309,7 +345,6 @@ export default function Reportes() {
                                                 {pedidosExternos.length} pedidos externos
                                             </span>
                                         )}
-
 
 
                                     </div>
